@@ -325,6 +325,7 @@
 * [Создание карточки оракула при помощи транзакции данных](waves-oracles/create-an-oracle-card-with-a-data-transaction.md)
 * [Карточка оракула](waves-oracles/oracle-card.md)
 * [Обновление карточки оракула](waves-oracles/updating-oracle-card.md)
+* [Инструмент отправки транзакций данных](/waves-oracles/data-transaction-tool.md)
 * [Как создать оракул](waves-oracles/how-to-create-an-oracle.md)
 
 ## Token Rating
