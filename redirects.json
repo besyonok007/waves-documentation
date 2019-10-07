@@ -1020,6 +1020,59 @@
     {
       "to": "/en/ecosystem-applications/waves-explorer/account-balance-top-up-in-the-test-network.html",
       "from": "/en/waves-explorer/account-balance-top-up-in-the-test-network.html"
+    },
+    {
+      "=========================  Additional Services  ============================": null,
+      "to": "/en/additional-services/waves-token-rating/rating-formula.html",
+      "from": "/en/waves-token-rating/rating-formula.html"
+    },
+    {
+      "to": "/en/additional-services/waves-token-rating/data-transaction-with-user-s-rate.html",
+      "from": "/en/waves-token-rating/data-transaction-with-user-s-rate.html"
+    },
+    {
+      "to": "/en/additional-services/waves-token-rating/about-waves-token-rating.html",
+      "from": "/en/waves-token-rating/about-waves-token-rating.html"
+    },
+    {
+      "to": "/en/additional-services/waves-token-rating/user-interface.html",
+      "from": "/en/waves-token-rating/user-interface.html"
+    },
+    {
+      "to": "/en/additional-services/waves-token-rating/data-transaction-of-the-token-rating-oracle.html",
+      "from": "/en/waves-token-rating/data-transaction-of-the-token-rating-oracle.html"
+    },
+    {
+      "to": "/en/additional-services/waves-token-rating/token-management.html",
+      "from": "/en/waves-token-rating/token-management.html"
+    },
+    {
+      "to": "/en/additional-services/waves-oracles/updating-oracle-card.html",
+      "from": "/en/waves-oracles/updating-oracle-card.html"
+    },
+    {
+      "to": "/en/additional-services/waves-oracles/oracle-card.html",
+      "from": "/en/waves-oracles/oracle-card.html"
+    },
+    {
+      "to": "/en/additional-services/waves-oracles/create-an-oracle-card-with-a-data-transaction.html",
+      "from": "/en/waves-oracles/create-an-oracle-card-with-a-data-transaction.html"
+    },
+    {
+      "to": "/en/additional-services/waves-oracles/data-transaction-tool.html",
+      "from": "/en/waves-oracles/data-transaction-tool.html"
+    },
+    {
+      "to": "/en/additional-services/waves-oracles/about-waves-oracles.html",
+      "from": "/en/waves-oracles/about-waves-oracles.html"
+    },
+    {
+      "to": "/en/additional-services/waves-oracles/create-an-oracle-card-with-waves-oracle.html",
+      "from": "/en/waves-oracles/create-an-oracle-card-with-waves-oracle.html"
+    },
+    {
+      "to": "/en/additional-services/waves-oracles/how-to-create-an-oracle.html",
+      "from": "/en/waves-oracles/how-to-create-an-oracle.html"
     }
   ]
 }
