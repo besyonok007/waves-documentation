@@ -568,9 +568,458 @@
       "from": "/en/oracels-developments/what-is-a-data-oracle.html"
     },
     {
-      "===============================  Resources  =====================================": null,
+      "===============================  Resources  ===================================": null,
       "to": "/en/resources/contributing.html",
       "from": "/en/contributing.html"
+    },
+    {
+      "=========================  Ecosystem Applications  ============================": null,
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps.html",
+      "from": "/en/waves-client/mobile-apps.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/account-management.html",
+      "from": "/en/waves-client/account-management.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/security-notes.html",
+      "from": "/en/waves-client/security-notes.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/assets-management.html",
+      "from": "/en/waves-client/assets-management.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/faq.html",
+      "from": "/en/waves-client/faq.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/advanced_features.html",
+      "from": "/en/waves-client/advanced_features.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/install-waves-client.html",
+      "from": "/en/waves-client/install-waves-client.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/wallet-management.html",
+      "from": "/en/waves-client/wallet-management.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/onlinedesktop-apps.html",
+      "from": "/en/waves-client/onlinedesktop-apps.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/transfers-and-gateways/waves-transfers.html",
+      "from": "/en/waves-client/transfers-and-gateways/waves-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/transfers-and-gateways/monero-transfers.html",
+      "from": "/en/waves-client/transfers-and-gateways/monero-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/transfers-and-gateways/bitcoin-cash-transfers.html",
+      "from": "/en/waves-client/transfers-and-gateways/bitcoin-cash-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/transfers-and-gateways/zcash-transfers.html",
+      "from": "/en/waves-client/transfers-and-gateways/zcash-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/transfers-and-gateways/litecoin-transfers.html",
+      "from": "/en/waves-client/transfers-and-gateways/litecoin-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/transfers-and-gateways/dash-transfers.html",
+      "from": "/en/waves-client/transfers-and-gateways/dash-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/transfers-and-gateways/bancor-transfers.html",
+      "from": "/en/waves-client/transfers-and-gateways/bancor-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/transfers-and-gateways/eur-usd-transfers.html",
+      "from": "/en/waves-client/transfers-and-gateways/eur-usd-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/transfers-and-gateways/ethereum-transfers.html",
+      "from": "/en/waves-client/transfers-and-gateways/ethereum-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/transfers-and-gateways/bitcoin-sv-transfers.html",
+      "from": "/en/waves-client/transfers-and-gateways/bitcoin-sv-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/transfers-and-gateways/bitcoin-transfers.html",
+      "from": "/en/waves-client/transfers-and-gateways/bitcoin-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/transfers-and-gateways/vostok-transfers.html",
+      "from": "/en/waves-client/transfers-and-gateways/vostok-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/transfers-and-gateways/asset-transfers.html",
+      "from": "/en/waves-client/transfers-and-gateways/asset-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/transfers-and-gateways/buying-waves-using-card.html",
+      "from": "/en/waves-client/transfers-and-gateways/buying-waves-using-card.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/transfers-and-gateways/ergo-transfers.html",
+      "from": "/en/waves-client/transfers-and-gateways/ergo-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android.html",
+      "from": "/en/waves-client/mobile-apps/android.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS.html",
+      "from": "/en/waves-client/mobile-apps/iOS.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/account-management.html",
+      "from": "/en/waves-client/mobile-apps/iOS/account-management.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/assets-management.html",
+      "from": "/en/waves-client/mobile-apps/iOS/assets-management.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/wallet-management.html",
+      "from": "/en/waves-client/mobile-apps/iOS/wallet-management.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/transfers-and-gateways/waves-transfers.html",
+      "from": "/en/waves-client/mobile-apps/iOS/transfers-and-gateways/waves-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/transfers-and-gateways/monero-transfers.html",
+      "from": "/en/waves-client/mobile-apps/iOS/transfers-and-gateways/monero-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/transfers-and-gateways/bitcoin-cash-transfers.html",
+      "from": "/en/waves-client/mobile-apps/iOS/transfers-and-gateways/bitcoin-cash-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/transfers-and-gateways/zcash-transfers.html",
+      "from": "/en/waves-client/mobile-apps/iOS/transfers-and-gateways/zcash-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/transfers-and-gateways/litecoin-transfers.html",
+      "from": "/en/waves-client/mobile-apps/iOS/transfers-and-gateways/litecoin-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/transfers-and-gateways/dash-transfers.html",
+      "from": "/en/waves-client/mobile-apps/iOS/transfers-and-gateways/dash-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/transfers-and-gateways/ethereum-transfers.html",
+      "from": "/en/waves-client/mobile-apps/iOS/transfers-and-gateways/ethereum-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/transfers-and-gateways/bitcoin-sv-transfers.html",
+      "from": "/en/waves-client/mobile-apps/iOS/transfers-and-gateways/bitcoin-sv-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/transfers-and-gateways/bitcoin-transfers.html",
+      "from": "/en/waves-client/mobile-apps/iOS/transfers-and-gateways/bitcoin-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/transfers-and-gateways/vostok-transfers.html",
+      "from": "/en/waves-client/mobile-apps/iOS/transfers-and-gateways/vostok-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/transfers-and-gateways/asset-transfers.html",
+      "from": "/en/waves-client/mobile-apps/iOS/transfers-and-gateways/asset-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/transfers-and-gateways/buying-waves-using-card.html",
+      "from": "/en/waves-client/mobile-apps/iOS/transfers-and-gateways/buying-waves-using-card.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/account-management/creating-an-alias.html",
+      "from": "/en/waves-client/mobile-apps/iOS/account-management/creating-an-alias.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/account-management/creating-an-account.html",
+      "from": "/en/waves-client/mobile-apps/iOS/account-management/creating-an-account.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/account-management/restore-an-account.html",
+      "from": "/en/waves-client/mobile-apps/iOS/account-management/restore-an-account.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/account-management/waves-address.html",
+      "from": "/en/waves-client/mobile-apps/iOS/account-management/waves-address.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/account-management/signing-in-to-your-account.html",
+      "from": "/en/waves-client/mobile-apps/iOS/account-management/signing-in-to-your-account.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/account-management/waves-leasing.html",
+      "from": "/en/waves-client/mobile-apps/iOS/account-management/waves-leasing.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/assets-management/burn-an-asset.html",
+      "from": "/en/waves-client/mobile-apps/iOS/assets-management/burn-an-asset.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/waves-dex/about-waves-dex.html",
+      "from": "/en/waves-client/mobile-apps/iOS/waves-dex/about-waves-dex.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/iOS/waves-dex/start-trading-on-the-waves-dex.html",
+      "from": "/en/waves-client/mobile-apps/iOS/waves-dex/start-trading-on-the-waves-dex.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/account-management.html",
+      "from": "/en/waves-client/mobile-apps/android/account-management.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/assets-management.html",
+      "from": "/en/waves-client/mobile-apps/android/assets-management.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/wallet-management.html",
+      "from": "/en/waves-client/mobile-apps/android/wallet-management.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/transfers-and-gateways/waves-transfers.html",
+      "from": "/en/waves-client/mobile-apps/android/transfers-and-gateways/waves-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/transfers-and-gateways/monero-transfers.html",
+      "from": "/en/waves-client/mobile-apps/android/transfers-and-gateways/monero-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/transfers-and-gateways/bitcoin-cash-transfers.html",
+      "from": "/en/waves-client/mobile-apps/android/transfers-and-gateways/bitcoin-cash-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/transfers-and-gateways/zcash-transfers.html",
+      "from": "/en/waves-client/mobile-apps/android/transfers-and-gateways/zcash-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/transfers-and-gateways/litecoin-transfers.html",
+      "from": "/en/waves-client/mobile-apps/android/transfers-and-gateways/litecoin-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/transfers-and-gateways/dash-transfers.html",
+      "from": "/en/waves-client/mobile-apps/android/transfers-and-gateways/dash-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/transfers-and-gateways/ethereum-transfers.html",
+      "from": "/en/waves-client/mobile-apps/android/transfers-and-gateways/ethereum-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/transfers-and-gateways/bitcoin-sv-transfers.html",
+      "from": "/en/waves-client/mobile-apps/android/transfers-and-gateways/bitcoin-sv-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/transfers-and-gateways/bitcoin-transfers.html",
+      "from": "/en/waves-client/mobile-apps/android/transfers-and-gateways/bitcoin-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/transfers-and-gateways/vostok-transfers.html",
+      "from": "/en/waves-client/mobile-apps/android/transfers-and-gateways/vostok-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/transfers-and-gateways/asset-transfers.html",
+      "from": "/en/waves-client/mobile-apps/android/transfers-and-gateways/asset-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/transfers-and-gateways/buying-waves-using-card.html",
+      "from": "/en/waves-client/mobile-apps/android/transfers-and-gateways/buying-waves-using-card.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/account-management/creating-an-alias.html",
+      "from": "/en/waves-client/mobile-apps/android/account-management/creating-an-alias.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/account-management/creating-an-account.html",
+      "from": "/en/waves-client/mobile-apps/android/account-management/creating-an-account.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/account-management/restore-an-account.html",
+      "from": "/en/waves-client/mobile-apps/android/account-management/restore-an-account.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/account-management/waves-address.html",
+      "from": "/en/waves-client/mobile-apps/android/account-management/waves-address.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/account-management/signing-in-to-your-account.html",
+      "from": "/en/waves-client/mobile-apps/android/account-management/signing-in-to-your-account.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/account-management/waves-leasing.html",
+      "from": "/en/waves-client/mobile-apps/android/account-management/waves-leasing.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/assets-management/burn-an-asset.html",
+      "from": "/en/waves-client/mobile-apps/android/assets-management/burn-an-asset.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/waves-dex/about-waves-dex.html",
+      "from": "/en/waves-client/mobile-apps/android/waves-dex/about-waves-dex.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.html",
+      "from": "/en/waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/account-management/creating-an-alias.html",
+      "from": "/en/waves-client/account-management/creating-an-alias.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/account-management/creating-an-account.html",
+      "from": "/en/waves-client/account-management/creating-an-account.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/account-management/restore-an-account.html",
+      "from": "/en/waves-client/account-management/restore-an-account.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/account-management/waves-address.html",
+      "from": "/en/waves-client/account-management/waves-address.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/account-management/ledger-nano.html",
+      "from": "/en/waves-client/account-management/ledger-nano.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/account-management/signing-in-to-your-account.html",
+      "from": "/en/waves-client/account-management/signing-in-to-your-account.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/account-management/waves-leasing.html",
+      "from": "/en/waves-client/account-management/waves-leasing.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/security/safe-place.html",
+      "from": "/en/waves-client/security/safe-place.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/security/spam-transactions.html",
+      "from": "/en/waves-client/security/spam-transactions.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/assets-management/burn-an-asset.html",
+      "from": "/en/waves-client/assets-management/burn-an-asset.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/assets-management/sponsored-fee.html",
+      "from": "/en/waves-client/assets-management/sponsored-fee.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/assets-management/reissue-an-asset.html",
+      "from": "/en/waves-client/assets-management/reissue-an-asset.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/assets-management/reissuable-nonreissuable.html",
+      "from": "/en/waves-client/assets-management/reissuable-nonreissuable.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/assets-management/issue-an-asset.html",
+      "from": "/en/waves-client/assets-management/issue-an-asset.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/assets-management/sponsored-transaction.html",
+      "from": "/en/waves-client/assets-management/sponsored-transaction.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/assets-management/mass-transfer.html",
+      "from": "/en/waves-client/assets-management/mass-transfer.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/advanced_features/json_confirmation.html",
+      "from": "/en/waves-client/advanced_features/json_confirmation.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/advanced_features/script_transaction.html",
+      "from": "/en/waves-client/advanced_features/script_transaction.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/frequently-asked-questions-faq/account-management-faq.html",
+      "from": "/en/waves-client/frequently-asked-questions-faq/account-management-faq.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/frequently-asked-questions-faq/waves-dex-faq.html",
+      "from": "/en/waves-client/frequently-asked-questions-faq/waves-dex-faq.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/frequently-asked-questions-faq/transfers-and-gateways-faq.html",
+      "from": "/en/waves-client/frequently-asked-questions-faq/transfers-and-gateways-faq.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.html",
+      "from": "/en/waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/frequently-asked-questions-faq/transfers-and-gateways/ethereum-smartcontract-transfers.html",
+      "from": "/en/waves-client/frequently-asked-questions-faq/transfers-and-gateways/ethereum-smartcontract-transfers.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.html",
+      "from": "/en/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/frequently-asked-questions-faq/account-management/dark-mode.html",
+      "from": "/en/waves-client/frequently-asked-questions-faq/account-management/dark-mode.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/frequently-asked-questions-faq/account-management/waves-fee.html",
+      "from": "/en/waves-client/frequently-asked-questions-faq/account-management/waves-fee.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/frequently-asked-questions-faq/account-management/seed-phrase.html",
+      "from": "/en/waves-client/frequently-asked-questions-faq/account-management/seed-phrase.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/frequently-asked-questions-faq/account-management/one-seed.html",
+      "from": "/en/waves-client/frequently-asked-questions-faq/account-management/one-seed.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/frequently-asked-questions-faq/waves-dex/asset-id.html",
+      "from": "/en/waves-client/frequently-asked-questions-faq/waves-dex/asset-id.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/frequently-asked-questions-faq/waves-dex/enough-waves.html",
+      "from": "/en/waves-client/frequently-asked-questions-faq/waves-dex/enough-waves.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-client/frequently-asked-questions-faq/waves-dex/order-time.html",
+      "from": "/en/waves-client/frequently-asked-questions-faq/waves-dex/order-time.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-dex/about-waves-dex.html",
+      "from": "/en/waves-dex/about-waves-dex.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-dex/dex-protocol.html",
+      "from": "/en/waves-dex/dex-protocol.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-dex/start-trading-on-the-waves-dex.html",
+      "from": "/en/waves-dex/start-trading-on-the-waves-dex.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-keeper/about-waves-keeper.html",
+      "from": "/en/waves-keeper/about-waves-keeper.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-keeper/how-to-use-waves-keeper.html",
+      "from": "/en/waves-keeper/how-to-use-waves-keeper.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-explorer/about-waves-explorer.html",
+      "from": "/en/waves-explorer/about-waves-explorer.html"
+    },
+    {
+      "to": "/en/ecosystem-applications/waves-explorer/account-balance-top-up-in-the-test-network.html",
+      "from": "/en/waves-explorer/account-balance-top-up-in-the-test-network.html"
     }
   ]
 }
