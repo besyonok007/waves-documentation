@@ -9,7 +9,7 @@
 
 ## Ecosystem applications
 
-* Client
+* [Client]()
   * [Installation](ecosystem-applications/waves-client/install-waves-client.md)
   * [Security notes](ecosystem-applications/waves-client/security-notes.md)
   * [Online/Desktop Apps](ecosystem-applications/waves-client/onlinedesktop-apps.md)
@@ -111,14 +111,14 @@
     * [Ethereum transfers with smart-contracts](ecosystem-applications/waves-client/frequently-asked-questions-faq/transfers-and-gateways/ethereum-smartcontract-transfers.md)
     * [What is an airdrop?](ecosystem-applications/waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
     * [How to Enable Dark Mode?](ecosystem-applications/waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
-* DEX
+* [DEX]()
   * [About Waves DEX](waves-dex/about-waves-dex.md)
   * [Start trading](waves-dex/start-trading-on-the-waves-dex.md)
   * [DEX protocol](waves-dex/dex-protocol.md)
-* Explorer
+* [Explorer]()
   * [About Waves Explorer](waves-explorer/about-waves-explorer.md)
   * [Account balance top up in the test network](waves-explorer/account-balance-top-up-in-the-test-network.md)
-* Keeper
+* [Keeper]()
   * [About Waves Keeper](waves-keeper/about-waves-keeper.md)
   * [Getting started with Waves Keeper](waves-keeper/how-to-use-waves-keeper.md)
 
@@ -397,24 +397,23 @@
 * [Examples](waves-api-and-sdk/examples.md)
   * [Create your first crypto trading Bot](waves-api-and-sdk/examples/trading-bot.md)
 
-## Oracles
+## Additional Services
 
-* [About Waves Oracles](waves-oracles/about-waves-oracles.md)
-* [Create an oracle card with Waves Oracle](waves-oracles/create-an-oracle-card-with-waves-oracle.md)
-* [Create an oracle card with a data transaction](waves-oracles/create-an-oracle-card-with-a-data-transaction.md)
-* [Data transaction tool](waves-oracles/data-transaction-tool.md)
-* [Oracle card](waves-oracles/oracle-card.md)
-* [Updating oracle card](waves-oracles/updating-oracle-card.md)
-* [How to create an oracle](waves-oracles/how-to-create-an-oracle.md)
-
-## Token Rating
-
-* [About Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
-* [User interface](waves-token-rating/user-interface.md)
-* [Rating formula](waves-token-rating/rating-formula.md)
-* [Data transaction with user's rate](waves-token-rating/data-transaction-with-user-s-rate.md)
-* [Data transaction of the Token Rating oracle](waves-token-rating/data-transaction-of-the-token-rating-oracle.md)
-* [Token management](waves-token-rating/token-management.md)
+* Oracles
+  * [About Waves Oracles](waves-oracles/about-waves-oracles.md)
+  * [Create an oracle card with Waves Oracle](waves-oracles/create-an-oracle-card-with-waves-oracle.md)
+  * [Create an oracle card with a data transaction](waves-oracles/create-an-oracle-card-with-a-data-transaction.md)
+  * [Data transaction tool](waves-oracles/data-transaction-tool.md)
+  * [Oracle card](waves-oracles/oracle-card.md)
+  * [Updating oracle card](waves-oracles/updating-oracle-card.md)
+  * [How to create an oracle](waves-oracles/how-to-create-an-oracle.md)
+* Token Rating
+  * [About Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
+  * [User interface](waves-token-rating/user-interface.md)
+  * [Rating formula](waves-token-rating/rating-formula.md)
+  * [Data transaction with user's rate](waves-token-rating/data-transaction-with-user-s-rate.md)
+  * [Data transaction of the Token Rating oracle](waves-token-rating/data-transaction-of-the-token-rating-oracle.md)
+  * [Token management](waves-token-rating/token-management.md)
 
 ## Miscellaneous
 
