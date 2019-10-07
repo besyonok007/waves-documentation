@@ -17,7 +17,7 @@
 
 ### Oracles
 
-* [Data transaction tool](/waves-oracles/data-transaction-tool.md)
+* [Data transaction tool](waves-oracles/data-transaction-tool.md)
 
 ## September articles
 
