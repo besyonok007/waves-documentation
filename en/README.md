@@ -16,6 +16,10 @@
   * Matcher
     * [Installing matcher on Ubuntu from deb-package](/waves-node/extensions/matcher/matcher-install-ubuntu-deb.md)
 
+### Oracles
+
+* [Data transaction tool](/waves-oracles/data-transaction-tool.md)
+
 ## September articles
 
 ### Blockchain

@@ -16,6 +16,10 @@
   * Матчер
     * [Установка матчера на Ubuntu из deb-пакета](/waves-node/extensions/matcher/matcher-install-ubuntu-deb.md)
 
+### Oracles
+
+* [Инструмент отправки транзакций данных](/waves-oracles/data-transaction-tool.md)
+
 ## Сентябрьские статьи
 
 ### Блокчейн
