@@ -7,9 +7,9 @@
 * [Developer guide](getting-started/getting-started-for-developers.md)
 * [Node owner guide](getting-started/getting-started-for-node-owners.md)
 
-## Ecosystem applications
+## Ecosystem Applications
 
-* [Client]()
+* [Client](ecosystem-applications/waves-client.md)
   * [Installation](ecosystem-applications/waves-client/install-waves-client.md)
   * [Security notes](ecosystem-applications/waves-client/security-notes.md)
   * [Online/Desktop Apps](ecosystem-applications/waves-client/onlinedesktop-apps.md)
@@ -99,7 +99,7 @@
         * [Buying Waves using credit or debit card (Android)](ecosystem-applications/waves-client/mobile-apps/android/transfers-and-gateways/buying-waves-using-card.md)
       * [Waves DEX (Android)](ecosystem-applications/waves-client/mobile-apps/android/waves-dex/about-waves-dex.md)
         * [Start trading on the Waves DEX (Android)](ecosystem-applications/waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
-  * [FAQ](waves-client/faq.md)
+  * [FAQ](ecosystem-applications/waves-client/faq.md)
     * [Suspicious transactions](ecosystem-applications/waves-client/security/spam-transactions.md)
     * [What is a SEED phrase?](ecosystem-applications/waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
     * [One Seed - One Waves address](ecosystem-applications/waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
@@ -111,16 +111,16 @@
     * [Ethereum transfers with smart-contracts](ecosystem-applications/waves-client/frequently-asked-questions-faq/transfers-and-gateways/ethereum-smartcontract-transfers.md)
     * [What is an airdrop?](ecosystem-applications/waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
     * [How to Enable Dark Mode?](ecosystem-applications/waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
-* [DEX]()
-  * [About Waves DEX](waves-dex/about-waves-dex.md)
-  * [Start trading](waves-dex/start-trading-on-the-waves-dex.md)
-  * [DEX protocol](waves-dex/dex-protocol.md)
-* [Explorer]()
-  * [About Waves Explorer](waves-explorer/about-waves-explorer.md)
-  * [Account balance top up in the test network](waves-explorer/account-balance-top-up-in-the-test-network.md)
-* [Keeper]()
-  * [About Waves Keeper](waves-keeper/about-waves-keeper.md)
-  * [Getting started with Waves Keeper](waves-keeper/how-to-use-waves-keeper.md)
+* [DEX](ecosystem-applications/waves-dex.md)
+  * [About Waves DEX](ecosystem-applications/waves-dex/about-waves-dex.md)
+  * [Start trading](ecosystem-applications/waves-dex/start-trading-on-the-waves-dex.md)
+  * [DEX protocol](ecosystem-applications/waves-dex/dex-protocol.md)
+* [Explorer](ecosystem-applications/waves-explorer.md)
+  * [About Waves Explorer](ecosystem-applications/waves-explorer/about-waves-explorer.md)
+  * [Account balance top up in the test network](ecosystem-applications/waves-explorer/account-balance-top-up-in-the-test-network.md)
+* [Keeper](ecosystem-applications/waves-keeper.md)
+  * [About Waves Keeper](ecosystem-applications/waves-keeper/about-waves-keeper.md)
+  * [Getting started with Waves Keeper](ecosystem-applications/waves-keeper/how-to-use-waves-keeper.md)
 
 ## Blockchain
 
