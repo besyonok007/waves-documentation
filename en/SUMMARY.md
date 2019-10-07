@@ -7,7 +7,7 @@
 * [Developer guide](getting-started/getting-started-for-developers.md)
 * [Node owner guide](getting-started/getting-started-for-node-owners.md)
 
-## Ecosystem applications
+## Ecosystem Applications
 
 * [Client]()
   * [Installation](ecosystem-applications/waves-client/install-waves-client.md)
