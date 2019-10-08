@@ -58,7 +58,6 @@
   * [Встроенные функции](ride/functions/built-in-functions.md) — <span style="color:green">обновлено</span>
     * [Функции верификации](ride/functions/built-in-functions/verification-functions.md) — <span style="color:green">обновлено</span>
 
-
 > Посмотреть старые новости в [Aрхиве новостей](miscellaneous/news-archive.md)
 
 > Посмотреть репозиторий документации на [Github](https://github.com/wavesplatform/waves-documentation)
