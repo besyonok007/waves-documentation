@@ -16,6 +16,7 @@
 * Extensions
   * Matcher
     * [Installing matcher on Ubuntu from deb-package](/waves-node/extensions/matcher/matcher-install-ubuntu-deb.md)
+    * [Matcher settings](/waves-node/extensions/matcher/matcher-settings.md)
 
 ### Oracles
 
