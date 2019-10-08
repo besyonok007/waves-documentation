@@ -4,6 +4,10 @@
 
 ### RIDE
 
+* Типы данных
+  * [ByteVector](ride/data-types/byte-vector.md) — <span style="color:green">обновлено</span>
+  * [Int](ride/data-types/int.md) — <span style="color:green">обновлено</span>
+
 * Функции
   * Встроенные функции
     * [Математические функции](ride/functions/built-in-functions/math-functions.md) — <span style="color:green">обновлено</span>
