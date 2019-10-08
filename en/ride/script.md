@@ -10,7 +10,7 @@ There are three types of scripts:
 * [account scripts](/ride/script/script-types/account-script.md)
 * [asset scripts](/ride/script/script-types/asset-script.md)
 
-## Complexity
+## Script Complexity
 
 See the page [Complexity](/ride/base-concepts/complexity.md).
 
