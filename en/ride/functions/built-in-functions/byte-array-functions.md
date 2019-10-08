@@ -2,15 +2,15 @@
 
 |#|Name | Description | Complexity |
 |:---| :--- | :--- | :--- |
-|1| [drop(ByteVector, Int): ByteVector](#drop) | Drops the first `n` bytes of an array of bytes | 1 |
-|2| [dropRight(ByteVector, Int): ByteVector](#drop-right) | Drops the last `n` bytes of an array of bytes | 19 |
-|3| [size(ByteVector): Int](#size) | Returns the size of an array of bytes | 1 |
-|4| [take(ByteVector, Int): ByteVector](#take) | Takes the first `n` bytes from an array of bytes | 1 |
-|5| [takeRight(ByteVector, Int): ByteVector](#take-right) | Takes the last `n` bytes from an array of bytes | 19 |
+|1| [drop(ByteVector, Int): ByteVector](#drop) | Returns the byte array without the first `N` bytes | 1 |
+|2| [dropRight(ByteVector, Int): ByteVector](#drop-right) | Returns the byte array without the last `N` bytes | 19 |
+|3| [size(ByteVector): Int](#size) | Returns the number of bytes in the byte array | 1 |
+|4| [take(ByteVector, Int): ByteVector](#take) | Returns the first `N` bytes of the byte array | 1 |
+|5| [takeRight(ByteVector, Int): ByteVector](#take-right) | Returns the last `N` bytes of the byte array | 19 |
 
 ## drop(ByteVector, Int): ByteVector<a id="drop"></a>
 
-Drops the first `n` bytes of an array of bytes.
+Returns the byte array without the first `N` bytes.
 
 ``` ride
 drop(xs: ByteVector, number: Int): ByteVector
@@ -18,17 +18,17 @@ drop(xs: ByteVector, number: Int): ByteVector
 
 ### Parameters
 
-#### `xs`: ByteVector
+#### `xs`: [ByteVector](/ride/data-types/byte-vector.md)
 
-The array of bytes.
+Byte array.
 
-#### `number`: Int
+#### `number`: [Int](/ride/data-types/int.md)
 
-The number `n`.
+Number `N`.
 
 ## dropRight(ByteVector, Int): ByteVector<a id="drop-right"></a>
 
-Drops the last `n` bytes of an array of bytes.
+Returns the byte array without the last `N` bytes.
 
 ``` ride
 dropRight(xs: ByteVector, number: Int): ByteVector
@@ -36,17 +36,17 @@ dropRight(xs: ByteVector, number: Int): ByteVector
 
 ### Parameters
 
-#### `xs`: ByteVector
+#### `xs`: [ByteVector](/ride/data-types/byte-vector.md)
 
-The array of bytes.
+Byte array.
 
-#### `number`: Int
+#### `number`: [Int](/ride/data-types/int.md)
 
-The number `n`.
+Number `N`.
 
 ## size(ByteVector): Int<a id="size"></a>
 
-Returns the size of an array of bytes.
+Returns the number of bytes in the byte array.
 
 ``` ride
 size(byteVector: ByteVector): Int
@@ -54,13 +54,13 @@ size(byteVector: ByteVector): Int
 
 ### Parameters
 
-#### `byteVector`: ByteVector
+#### `byteVector`: [ByteVector](/ride/data-types/byte-vector.md)
 
-The array of bytes.
+Byte array.
 
 ## take(ByteVector, Int): ByteVector<a id="take"></a>
 
-Takes the first `n` bytes from an array of bytes.
+Returns the first `N` bytes of the byte array.
 
 ``` ride
 take(xs: ByteVector, number: Int): ByteVector
@@ -68,17 +68,17 @@ take(xs: ByteVector, number: Int): ByteVector
 
 ### Parameters
 
-#### `xs`: ByteVector
+#### `xs`: [ByteVector](/ride/data-types/byte-vector.md)
 
-The array of bytes.
+Byte array.
 
-#### `number`: Int
+#### `number`: [Int](/ride/data-types/int.md)
 
-The number `n`.
+Number `N`.
 
 ## takeRight(ByteVector, Int): ByteVector<a id="take-right"></a>
 
-Takes the last `n` bytes from an array of bytes.
+Returns the last `N` bytes of the byte array.
 
 ``` ride
 takeRight(xs: ByteVector, number: Int): ByteVector
@@ -86,10 +86,10 @@ takeRight(xs: ByteVector, number: Int): ByteVector
 
 ### Parameters
 
-#### `xs`: ByteVector
+#### `xs`: [ByteVector](/ride/data-types/byte-vector.md)
 
-The array of bytes.
+Byte array.
 
-#### `number`: Int
+#### `number`: [Int](/ride/data-types/int.md)
 
-The number `n`.
+Number `N`.
