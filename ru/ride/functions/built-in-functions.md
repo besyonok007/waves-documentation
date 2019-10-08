@@ -76,11 +76,11 @@
 
 | # | Название | Описание | Сложность |
 | :--- | :--- | :--- | :--- |
-| 1 | drop(ByteVector, Int): ByteVector | Удаляет первые `n` байтов из массива байтов | 1 |
-| 2 | dropRight(ByteVector, Int): ByteVector | Удаляет последние `n` байтов из массива байтов | 19 |
-| 3 | size(ByteVector): Int | Возвращает размер массива байтов | 1 |
-| 4 | take(ByteVector, Int): ByteVector | Возвращает первые `n` байтов массива байтов | 1 |
-| 5 | takeRight(ByteVector, Int): ByteVector | Возвращает последние `n` байтов массива байтов | 19 |
+| 1 | drop(ByteVector, Int): ByteVector | Возвращает массив байтов без первых `N` байтов | 1 |
+| 2 | dropRight(ByteVector, Int): ByteVector | Возвращает массив байтов без последних `N` байтов | 19 |
+| 3 | size(ByteVector): Int | Возвращает количество байтов в массиве байтов	 | 1 |
+| 4 | take(ByteVector, Int): ByteVector | Возвращает первые `N` байтов массива байтов | 1 |
+| 5 | takeRight(ByteVector, Int): ByteVector | Возвращает последние `N` байтов массива байтов	 | 19 |
 
 ### [Функции объединения](/ride/functions/built-in-functions/union-functions.md)
 
