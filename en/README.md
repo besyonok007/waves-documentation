@@ -4,6 +4,9 @@
 
 ### RIDE
 
+* Data types
+  * [ByteVector](ride/data-types/byte-vector.md) — <span style="color:green">updated</span>
+  * [Int](ride/data-types/int.md) — <span style="color:green">updated</span>
 * Functions
   * Built-in functions
     * [Byte array functions](ride/functions/built-in-functions/byte-array-functions.md) — <span style="color:green">updated</span>
