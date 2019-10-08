@@ -10,7 +10,7 @@
 * [скрипты аккаунтов](/ride/script/script-types/account-script.md)
 * [скрипты ассетов](/ride/script/script-types/asset-script.md)
 
-## Сложность
+## Сложность скрипта
 
 Смотрите страницу [Сложность](/ride/base-concepts/complexity.md).
 
