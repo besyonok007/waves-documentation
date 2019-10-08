@@ -90,7 +90,7 @@ size(base58'37BPKA')            # Возвращает 4
 
 ## take(ByteVector, Int): ByteVector <a id="take"></a>
 
-Возвращает первые `N` байтов массива байтов
+Возвращает первые `N` байтов массива байтов.
 
 ``` ride
 take(xs: ByteVector, number: Int): ByteVector
