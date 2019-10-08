@@ -6,6 +6,7 @@
 
 * Functions
   * Built-in functions
+    * [Byte array functions](ride/functions/built-in-functions/byte-array-functions.md) — <span style="color:green">updated</span>
     * [Hashing functions](ride/functions/built-in-functions/hashing-functions.md) — <span style="color:green">updated</span>
     * [Math functions](ride/functions/built-in-functions/math-functions.md) — <span style="color:green">updated</span>
     * [String functions](ride/functions/built-in-functions/string-functions.md) — <span style="color:green">updated</span>
