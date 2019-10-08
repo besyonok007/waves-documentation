@@ -32,11 +32,11 @@ A **built-in function** is a [function](/ride/functions.md) of the [script conte
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
-| 1 | drop(ByteVector, Int): ByteVector | Drops the first `n` bytes of an array of bytes | 1 |
-| 2 | dropRight(ByteVector, Int): ByteVector | Drops the last `n` bytes of an array of bytes | 19 |
-| 3 | size(ByteVector): Int | Returns the size of an array of bytes | 1 |
-| 4 | take(ByteVector, Int): ByteVector | Takes the first `n` bytes from an array of bytes | 1 |
-| 5 | takeRight(ByteVector, Int): ByteVector | Takes the last `n` bytes from an array of bytes | 19 |
+| 1 | drop(ByteVector, Int): ByteVector | Returns the byte array without the first `N` bytes | 1 |
+| 2 | dropRight(ByteVector, Int): ByteVector | Returns the byte array without the last `N` bytes | 19 |
+| 3 | size(ByteVector): Int | Returns the number of bytes in the byte array | 1 |
+| 4 | take(ByteVector, Int): ByteVector | Returns the first `N` bytes of the byte array | 1 |
+| 5 | takeRight(ByteVector, Int): ByteVector | Returns the last `N` bytes of the byte array | 19 |
 
 ### [Converting functions](/ride/functions/built-in-functions/converting-functions.md)
 
