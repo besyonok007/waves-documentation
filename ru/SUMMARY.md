@@ -268,7 +268,7 @@
 * [Типы данных](ride/data-types.md)
   * [Boolean](ride/data-types/boolean.md)
   * [ByteVector](ride/data-types/byte-vector.md)
-  * [Integer](ride/data-types/int.md)
+  * [Int](ride/data-types/int.md)
   * [List](ride/data-types/list.md)
   * [String](ride/data-types/string.md)
   * [Unit](ride/data-types/unit.md)
