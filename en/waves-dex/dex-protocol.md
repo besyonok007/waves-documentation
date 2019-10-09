@@ -114,7 +114,7 @@ So, you can buy `WAVES` for `BTC` even if you have no `WAVES`.
   [www.wavesplatform.com](http://www.wavesplatform.com/)
   , or use the webwallet, available at
   [client.wavesplatform.com](https://dex.wavesplatform.com/)
-* [Deposit your bitcoins](/waves-client/transfers-and-gateways/bitcoin-transfers.md) or any [supported coins and tokens](/waves-client/wallet-management.md) into the wallet and [start trading using the Waves DEX](/waves-client/waves-dex.md).
+* [Deposit your bitcoins](/waves-client/transfers-and-gateways/bitcoin-transfers.md) or any [supported coins and tokens](/waves-client/wallet-management.md) into the wallet and [start trading using the Waves DEX](/waves-dex/start-trading-on-the-waves-dex.md).
 
 # 6. Installing your Own Matcher
 
