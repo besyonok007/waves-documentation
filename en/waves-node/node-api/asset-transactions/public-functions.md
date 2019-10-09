@@ -59,7 +59,7 @@ Balances for all assets that the given account ever had \(besides WAVES\).
 }
 ```
 
-### GET /assets/balance/{address}/{assetId}
+### GET /assets/balance/{address}/{assetId} <a id="getassetbalance"></a>
 ![master](https://img.shields.io/badge/MAINNET-available-4bc51d.svg)
 
 
