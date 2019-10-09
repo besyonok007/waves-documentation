@@ -11,7 +11,7 @@ There you will find Waves address of your account. Copy it by clicking on the **
 
 ![](/waves-client/mobile-apps/_assets/waves_address_02.png)
 
-Also in this section you can create personal Alias. For more information please follow another article [How to create an Alias](/waves-client/mobile-apps/iOS/account-managment/creating-an-alias.md)
+Also in this section you can create personal Alias. For more information please follow another article [How to create an Alias](/waves-client/mobile-apps/iOS/account-management/creating-an-alias.md)
 
 ___
 
