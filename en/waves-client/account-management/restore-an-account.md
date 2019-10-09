@@ -18,7 +18,7 @@ After clicking on the **Import accounts** box you will be forwarded to the follo
 
 ![](/_assets/account_restoring_05.png)
 
-Here you can also import accounts from the [Ledger Nano S](/waves-client/account-management/ledger-nano.md) and [Waves Keeper](/en/waves-keeper/about-waves-keeper.md).
+Here you can also import accounts from the [Ledger Nano S](/waves-client/account-management/ledger-nano.md) and [Waves Keeper](/waves-keeper/about-waves-keeper.md).
 
 On the following page paste or type your seed into the blank text field.  
 The Waves wallet will automatically generate the corresponding address right below the text field.
