@@ -83,8 +83,8 @@ tradable_balance(asset) = balance_of_asset -
 
 The current balance in `asset`:
 
-* [WAVES](../development-and-api/node-api/address.md#get-addressesbalanceaddress);
-* [assets](../development-and-api/node-api/address.md#get-assetsbalanceaddress).
+* [WAVES](/waves-node/node-api/address.md#get-addressesbalance);
+* [assets](/waves-node/node-api/asset-transactions/public-functions.md#getassetbalance).
 
 ## spendings of asset in transactions in utx pool
 
@@ -114,7 +114,7 @@ So, you can buy `WAVES` for `BTC` even if you have no `WAVES`.
   [www.wavesplatform.com](http://www.wavesplatform.com/)
   , or use the webwallet, available at
   [client.wavesplatform.com](https://dex.wavesplatform.com/)
-* [Deposit your bitcoins](/waves-client/transfers-and-gateways/bitcoin-transfers.md) or any [supported coins and tokens](/en/waves-client/wallet-management.md) into the wallet and [start trading using the Waves DEX](/waves-client/waves-dex.md).
+* [Deposit your bitcoins](/waves-client/transfers-and-gateways/bitcoin-transfers.md) or any [supported coins and tokens](/waves-client/wallet-management.md) into the wallet and [start trading using the Waves DEX](/waves-dex/start-trading-on-the-waves-dex.md).
 
 # 6. Installing your Own Matcher
 
@@ -122,4 +122,4 @@ So, you can buy `WAVES` for `BTC` even if you have no `WAVES`.
 * The Matcher earns fees from the services it provides, so you can substantially increase your mining revenues.
 * When a user sends an order to Matcher he doesn't transfer ownership of his money to anyone, his money remains on his account until the order is matched with counter-order.
 
-{% prettyhint type="info" %} Find more technical details about the Matcher <a href="/development-and-api/dex-api/matcher.md"> &nbsp;HERE. </a> {% endprettyhint %}
+{% prettyhint type="info" %} Find more technical details about the Matcher [HERE](/waves-api-and-sdk/dex-api/matcher.md).{% endprettyhint %}

@@ -98,6 +98,6 @@ Choose an available sponsored token and click on the **Continue** button.
 
 ___
 
-See more articles in the [Transfers and gateways](/waves-client/mobile-apps/iOS/wallet-management.md) chapter.
+See more articles in the [Transfers and gateways](/waves-client/mobile-apps/android/wallet-management.md) chapter.
 
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.
