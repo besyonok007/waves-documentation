@@ -411,6 +411,7 @@
 * [Create an oracle card with a data transaction](waves-oracles/create-an-oracle-card-with-a-data-transaction.md)
 * [Oracle card](waves-oracles/oracle-card.md)
 * [Updating oracle card](waves-oracles/updating-oracle-card.md)
+* [Data transaction tool](waves-oracles/data-transaction-tool.md)
 * [How to create an oracle](waves-oracles/how-to-create-an-oracle.md)
 
 ## Token Rating
