@@ -78,7 +78,7 @@ Get Balance details:
 }
 ```
 
-### GET /addresses/balance/{address}
+### GET /addresses/balance/{address} <a id="get-addressesbalance"></a>
 
 ![master](https://img.shields.io/badge/MAINNET-available-4bc51d.svg)
 
