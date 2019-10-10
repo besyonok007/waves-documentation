@@ -227,7 +227,6 @@
 * [About Waves Keeper](waves-keeper/about-waves-keeper.md)
 * [Getting started with Waves Keeper](waves-keeper/how-to-use-waves-keeper.md)
 
-
 ## RIDE
 
 * [About RIDE](ride/about-ride.md)

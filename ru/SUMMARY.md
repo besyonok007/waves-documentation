@@ -304,8 +304,9 @@
 
 ## Node
 
+* [Node API](waves-node/node-api.md)
 * [Предварительные требования](waves-node/prerequisites.md)
-    * [Требования к аппаратному обеспечению](waves-node/prerequisites/hardware-requirements.md)
+  * [Требования к аппаратному обеспечению](waves-node/prerequisites/hardware-requirements.md)
 * [Запуск Waves Node в Яндекс.Облаке](waves-node/running-waves-node-in-yandex-cloud.md)
 * [Ограничения API пула публичных нод](waves-node/api-limitations-of-the-pool-of-public-nodes.md)
 * [Расширения](waves-node/extensions.md)
