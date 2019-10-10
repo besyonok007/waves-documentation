@@ -356,6 +356,7 @@
     * [gRPC Server installation](waves-node/extensions/grpc-server/grpc-server-installation.md)
   * [Matcher](waves-node/extensions/matcher.md)
     * [Installing matcher on Ubuntu from deb-package](/waves-node/extensions/matcher/matcher-install-ubuntu-deb.md)
+    * [Matcher settings](/waves-node/extensions/matcher/matcher-settings.md)
 * [Features](waves-node/features/features.md)
   * [Feature](waves-node/features/feature.md)
   * [Feature activation protocol](waves-node/features/feature-activation-protocol.md)
