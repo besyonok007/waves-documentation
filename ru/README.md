@@ -2,6 +2,16 @@
 
 ## Октябрьские статьи
 
+### Node
+
+* Расширения
+  * Матчер
+    * [Установка матчера на Ubuntu из deb-пакета](/waves-node/extensions/matcher/matcher-install-ubuntu-deb.md)
+
+### Oracles
+
+* [Инструмент отправки транзакций данных](/waves-oracles/data-transaction-tool.md)
+
 ### RIDE
 
 * Типы данных
@@ -14,16 +24,6 @@
     * [Функции массива байтов](ride/functions/built-in-functions/byte-array-functions.md) — <span style="color:green">обновлено</span>
     * [Функции строки](ride/functions/built-in-functions/string-functions.md) — <span style="color:green">обновлено</span>
     * [Функции хеширования](ride/functions/built-in-functions/hashing-functions.md) — <span style="color:green">обновлено</span>
-
-### Node
-
-* Расширения
-  * Матчер
-    * [Установка матчера на Ubuntu из deb-пакета](/waves-node/extensions/matcher/matcher-install-ubuntu-deb.md)
-
-### Oracles
-
-* [Инструмент отправки транзакций данных](/waves-oracles/data-transaction-tool.md)
 
 ### Блокчейн
 
