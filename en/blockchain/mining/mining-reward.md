@@ -1,31 +1,93 @@
 # Mining reward
 
-## Description
+The **mining reward** is a blockchain feature under which [miners](/blockchain/mining/miner.md) receive a fixed fee in [WAVES](/blockchain/token/waves.md) for each [generated block](/blockchain/block/block-generation.md).
 
-It is proposed to add a **reward for mining** on the Waves blockchain. The miner will be rewarded with WAVES for each of the generated blocks.
+Mining rewards are paid due to the additional issue of the WAVES token.
 
-This new feature implies the additional issue of WAVES tokens.
+## Current reward size
 
-## Rationale
+You can view the current reward size by making a request to the [Node API](/waves-node/node-api.md). In response to the request, JSON is returned, the value of the `currentReward` field of which is the current mining reward size in [WAVELET](/blockchain/token/wavelet.md)s.
 
-In the current model, miners earn only transaction fees; their income is less than 1% per annum.
+Example of request:
 
-The mining reward will increase the revenue for the miners. Once the new model is introduced, the miners' income will be increased to 7% per annum.
+``` console
+curl https://nodes.wavesplatform.com/blockchain/rewards
+```
 
-## Reward amount
+Example of response:
 
-The proposed initial reward is equal to 6 WAVES for each of the generated blocks. This amount of reward will remain the same for 100,000 blocks, i.e. approximately for 2.5 months. The amount of the reward for the next 10,000 blocks will be determined by the miners during the standard voting procedure.
+``` json
+{
+  "height": 1742254,
+  "totalWavesAmount": 10001353000000000,
+  "currentReward": 600000000,
+  "minIncrement": 50000000,
+  "term": 100000,
+  "nextCheck": 1839999,
+  "votingIntervalStart": 1830000,
+  "votingInterval": 10000,
+  "votingThreshold": 5001,
+  "votes": {
+    "increase": 0,
+    "decrease": 0
+  }
+}
+```
+
+In the example above, the value of the JSON's `currentReward` field is 600,000,000 WAVELETs — i.e. it's 6 WAVES.
+
+## The change of mining reward size over time
+
+Every 100,000 blocks, i.e. approximately every 70 days, a new voting for the current reward size change begins among the miners.
+
+The voting duration is 10,000 blocks. During this time, miners vote to increase, decrease or leave the current reward size unchanged.
+
+The elected reward size remains unchanged for 100,000 blocks following the end of voting.
 
 ## Voting
 
-Every 100,000 blocks miners vote for increasing, decreasing, or saving the current reward value.
+Miner specifies the new desired reward size using the `waves.rewards.desired` setting in the node configuration file; the setting value is specified in [WAVELET](/blockchain/token/wavelet.md)s.
 
-If a miner does not set up explicitly within the node configuration file whether they want to vote for increasing, decreasing, or saving the reward amount, then by default they will be voting for keeping the reward amount unchanged.
+Example of the setting which value is 7 WAVES:
 
-The step of changing the reward is equal to 0.5 WAVES. For example, if the current amount of reward is 7 WAVES, and the miners voted for reducing the reward, then the new amount of reward will be 6.5 WAVES.
+``` console
+waves.rewards.desired = 700000000
+```
 
-For the new reward value to take effect, more than 50% of the block generators must vote for it.
+The value can be any integer in the range from 0 to 9,223,372,036,854,775,807 inclusive.
 
-The new amount is valid for the next 100,000 blocks.
+When a [mining node](/blockchain/node/mining-node.md) generates a block, it writes into that block the value of the waves.rewards.desired setting from its own configuration file. If the setting value is not specified in the configuration file, then -1 is written to the block.
 
-The voting process is repeated every 100,000 blocks and lasts for 10,000 blocks.
+During the voting time in 10,000 blocks, a single mining node can generate several blocks, therefore one mining node can vote several times. How often a mining node generates blocks is determined by the LPoS consensus.
+
+## How votes are counted
+
+To count the votes, all 10,000 blocks generated during the voting period are inspected.
+
+If either -1 or the value that is equal to the current reward size is recorded to the block, then miner votes for keeping the current reward size.
+
+If the value recorded to the block is greater than the current reward size, then miner votes for the current reward size increase; if the value is smaller — for the decrease.
+
+The mining reward is increased/decreased only if more than half of the 10,000 votes — i.e. 5,001 votes or more — were given for increase/decrease. The amount of the current reward is increased/decreased by 0.5 WAVES _step_.
+
+## Examples
+
+### Example 1
+
+At the [blockchain height](/blockchain/blockchain/blockchain-height.md) of 2,000,000, the mining reward equals 5 WAVES. At the height of 2,090,000, another voting starts.
+
+During the 10,000 blocks of voting 6,000 votes were given for reward increase, 1,000 — for decrease, 3,000 — for keeping the current reward size.
+
+From the height of 2,100,000 to the height of 2,199,999, the new reward size will be 5.5 WAVES, because the reward change step is 0.5 WAVES.
+
+The next voting will take place from the height of 2,190,000 to 2,199,999.
+
+## Example 2
+
+At the blockchain height of 2,100,000, the mining reward equals 5.5 WAVES. At the height of 2,190,000, another voting starts.
+
+During the 10,000 blocks of voting 4,500 votes were given for reward increase, 4,000 — for decrease, 1,500 — for keeping the current reward size.
+
+From the height of 2,200,000 to the height of 2,299,999, the "new" reward size will be the same — 5.5 WAVES. Although the highest number of votes were given for the reward increase, it was not enough to change the current reward size. In order for the current reward size to be increased, at least 5,001 votes must be given for the increase.
+
+The next voting will take place from the height of 2,290,000 to 2,299,999.
