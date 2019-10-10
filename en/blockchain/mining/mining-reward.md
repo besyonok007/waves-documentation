@@ -56,7 +56,7 @@ waves.rewards.desired = 700000000
 
 The value can be any integer in the range from 0 to 9,223,372,036,854,775,807 inclusive.
 
-When a [mining node](/blockchain/node/mining-node.md) generates a block, it writes into that block the value of the waves.rewards.desired setting from its own configuration file. If the setting value is not specified in the configuration file, then -1 is written to the block.
+When a [mining node](/blockchain/node/mining-node.md) generates a block, it writes into that block the value of the `waves.rewards.desired setting` from its own configuration file. If the setting value is not specified in the configuration file, then -1 is written to the block.
 
 During the voting time in 10,000 blocks, a single mining node can generate several blocks, therefore one mining node can vote several times. How often a mining node generates blocks is determined by the LPoS consensus.
 
@@ -82,7 +82,7 @@ From the height of 2,100,000 to the height of 2,199,999, the new reward size wil
 
 The next voting will take place from the height of 2,190,000 to 2,199,999.
 
-## Example 2
+### Example 2
 
 At the blockchain height of 2,100,000, the mining reward equals 5.5 WAVES. At the height of 2,190,000, another voting starts.
 

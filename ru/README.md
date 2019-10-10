@@ -25,6 +25,11 @@
 
 * [Инструмент отправки транзакций данных](/waves-oracles/data-transaction-tool.md)
 
+### Блокчейн
+
+* Майнинг
+  * [Вознаграждение за майнинг](blockchain/mining/mining-reward.md) — <span style="color:green">обновлено</span>
+
 ## Сентябрьские статьи
 
 ### Блокчейн

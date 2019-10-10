@@ -2,6 +2,21 @@
 
 ## October articles
 
+### Blockchain
+
+* Mining
+  * [Mining reward](blockchain/mining/mining-reward.md) — <span style="color:green">updated</span>
+
+### Node
+
+* Extensions
+  * Matcher
+    * [Installing matcher on Ubuntu from deb-package](/waves-node/extensions/matcher/matcher-install-ubuntu-deb.md)
+
+### Oracles
+
+* [Data transaction tool](waves-oracles/data-transaction-tool.md)
+
 ### RIDE
 
 * Data types
@@ -13,16 +28,6 @@
     * [Hashing functions](ride/functions/built-in-functions/hashing-functions.md) — <span style="color:green">updated</span>
     * [Math functions](ride/functions/built-in-functions/math-functions.md) — <span style="color:green">updated</span>
     * [String functions](ride/functions/built-in-functions/string-functions.md) — <span style="color:green">updated</span>
-
-### Node
-
-* Extensions
-  * Matcher
-    * [Installing matcher on Ubuntu from deb-package](/waves-node/extensions/matcher/matcher-install-ubuntu-deb.md)
-
-### Oracles
-
-* [Data transaction tool](waves-oracles/data-transaction-tool.md)
 
 ## September articles
 
