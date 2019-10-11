@@ -4,7 +4,7 @@
 
 ### Blockchain
 
-* Mining
+* [Mining](blockchain/mining.md) — <span style="color:green">updated</span>
   * [Mining reward](blockchain/mining/mining-reward.md) — <span style="color:green">updated</span>
 
 ### Node
