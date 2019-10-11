@@ -27,7 +27,7 @@
 
 ### Блокчейн
 
-* Майнинг
+* [Майнинг](blockchain/mining.md) — <span style="color:green">обновлено</span>
   * [Вознаграждение за майнинг](blockchain/mining/mining-reward.md) — <span style="color:green">обновлено</span>
 
 ## Сентябрьские статьи
