@@ -6,7 +6,7 @@ Definition and simultaneous initialization of the variable are performed with th
 
 You cannot declare a variable without initialization.
 
-During the variable assignment at the right side of the "=" sign must be an [expression](/ride/base-concepts/expression.md). The value of the variable is the [expression result](/ride/base-concepts/expression.md#expression-result).
+During the variable assignment at the right side of the "=" sign must stay an [expression](/ride/base-concepts/expression.md). The value of the variable is the [expression result](/ride/base-concepts/expression.md#expression-result).
 
 ## Examples
 
