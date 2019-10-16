@@ -14,7 +14,7 @@ let b = base58'8t38fWQhrYJsqxXtPpiRCEk1g5RJdq9bG5Rkr2N7mDFC'
 let c = base64'UmlkZQ=='
 ```
 
-С помощью функции [toBytes](/ride/functions/built-in-functions/converting-functions.md) можно конвертировать целочисленные, логические или строковые значения в массив байтов:
+С помощью функции [toBytes](/ride/functions/built-in-functions/converting-functions.md) можно конвертировать целочисленные, логические и строковые значения в массив байтов:
 
 ``` ride
 let a = 42.toBytes()
