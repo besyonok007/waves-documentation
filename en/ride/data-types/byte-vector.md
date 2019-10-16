@@ -12,7 +12,7 @@ let b = base58'8t38fWQhrYJsqxXtPpiRCEk1g5RJdq9bG5Rkr2N7mDFC'
 let c = base64'UmlkZQ=='
 ```
 
-You can convert integer, boolean and string values to a byte array using [toBytes](/ride/functions/built-in-functions/converting-functions.md) function:
+You can convert [integer](/ride/data-types/int.md), [boolean](/ride/data-types/boolean.md) and [string](/ride/data-types/string.md) values to a byte array using [toBytes](/ride/functions/built-in-functions/converting-functions.md) function:
 
 
 ``` ride
