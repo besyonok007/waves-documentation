@@ -571,6 +571,35 @@
       "===============================  Resources  ===================================": null,
       "to": "/en/resources/contributing.html",
       "from": "/en/contributing.html"
-    }  
+    },
+    {
+      "===============================  Waves protocol  ===================================": null,
+      "to": "/en/blockchain/waves-protocol/cryptographic-practical-details.html",
+      "from": "/en/miscellaneous/waves-protocol/cryptographic-practical-details.html"
+    },
+    {
+      "to": "/en/blockchain/waves-protocol/validation-rules.html",
+      "from": "/en/miscellaneous/waves-protocol/validation-rules.html"
+    },
+    {
+      "to": "/en/blockchain/waves-protocol/waves-ng-solution.html",
+      "from": "/en/miscellaneous/waves-protocol/waves-ng-solution.html"
+    },
+    {
+      "to": "/en/blockchain/waves-protocol/sponsored-fee.html",
+      "from": "/en/miscellaneous/waves-protocol/sponsored-fee.html"
+    },
+    {
+      "to": "/en/blockchain/waves-protocol/fair-pos.html",
+      "from": "/en/miscellaneous/waves-protocol/fair-pos.html"
+    },
+    {
+      "to": "/en/blockchain/waves-protocol/waves-ng-protocol.html",
+      "from": "/en/miscellaneous/waves-protocol/waves-ng-protocol.html"
+    },    
+    {
+      "to": "/en/blockchain/waves-protocol/activation-protocol.html",
+      "from": "/en/miscellaneous/waves-protocol/activation-protocol.html"
+    }    
   ]
 }
