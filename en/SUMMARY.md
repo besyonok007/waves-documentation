@@ -105,6 +105,14 @@
   * [Set asset script transaction](blockchain/transaction-type/set-asset-script-transaction.md)
   * [Set script transaction](blockchain/transaction-type/set-script-transaction.md)
   * [Transfer transaction](blockchain/transaction-type/transfer-transaction.md)
+* [Waves protocol](blockchain/waves-protocol.md)
+  * [Cryptographic practical details](blockchain/waves-protocol/cryptographic-practical-details.md)
+  * [Validation rules](blockchain/waves-protocol/validation-rules.md)
+  * [Waves-NG solution](blockchain/waves-protocol/waves-ng-solution.md)
+  * [Sponsored fee](blockchain/waves-protocol/sponsored-fee.md)
+  * [Fair Proof of Stake](blockchain/waves-protocol/fair-pos.md)
+  * [Waves-NG protocol](blockchain/waves-protocol/waves-ng-protocol.md)
+  * [Activation protocol](blockchain/waves-protocol/activation-protocol.md)
 
 ## Client
 
@@ -426,14 +434,6 @@
 ## Miscellaneous
 
 * [Contributing](resources/contributing.md)
-* [Waves protocol](blockchain/waves-protocol.md)
-  * [Cryptographic practical details](blockchain/waves-protocol/cryptographic-practical-details.md)
-  * [Validation rules](blockchain/waves-protocol/validation-rules.md)
-  * [Waves-NG solution](blockchain/waves-protocol/waves-ng-solution.md)
-  * [Sponsored fee](blockchain/waves-protocol/sponsored-fee.md)
-  * [Fair Proof of Stake](blockchain/waves-protocol/fair-pos.md)
-  * [Waves-NG protocol](blockchain/waves-protocol/waves-ng-protocol.md)
-  * [Activation protocol](blockchain/waves-protocol/activation-protocol.md)
 * [Proposals](resources/proposals.md)
   * [Asset verification protocol](resources/asset-verification-protocol.md)
   * [Trezor hardware wallet integration specification](resources/trezor-hardware-wallet-integration-specification.md)
