@@ -12,7 +12,7 @@ For boolean type keys: Yes - True, No - False.
 
 For string type keys the value is limited to 32 Kb.
 
-For integer type keys the value is limited to 32 Kb and only integers are available.
+For integer type keys the value is limited to 8 bytes and only integers are available.
 
 For binary type keys, you can download a file that is converted to base64, limit the file size to 32 Kb.
 
