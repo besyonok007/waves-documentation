@@ -50,3 +50,29 @@
 ## Update the Configuration
 
 Please, read the updated documentation of [_**Waves node configuration file**_](/waves-node/node-configuration.md)_**.**_
+
+# Upgrading the Node from APT repository
+
+You can use APT repository to install and update the deployment. The repository provides mainnet, testnet and stagenet packages. 
+
+**Note:** When this installation method is used, the APT will also pull all required dependencies (namely OpenJDK 8).
+
+To install the latest version of a package for mainnet from the APT repository, run the following commands:
+
+```
+curl -sL http://apt.wavesplatform.com/apt-key.gpg | sudo apt-key add -
+add-apt-repository "deb https://apt.wavesplatform.com/ xenial mainnet"
+apt update
+apt install waves
+```
+
+**Note:** The Waves package works on Debian jessie+, Ubuntu xenial+, and their forks.
+
+
+
+Once the new version is released, you can update the package by running the following commands:
+
+```
+apt update 
+apt upgrade
+```
