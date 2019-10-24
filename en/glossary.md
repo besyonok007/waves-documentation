@@ -1,45 +1,45 @@
 # Glossary
 
-[A](#A_letter) | [B](#B_letter) | [C](#C_letter) | [D](#D_letter) | [E](#E_letter) | [F](#F_letter) | [G](#G_letter) | [H](#H_letter) | [I](#I_letter) | [J](#J_letter) | [K](#K_letter) | [L](#L_letter) | [M](#M_letter) | [N](#N_letter) | [O](#O_letter) | [P](#P_letter) | [Q](#Q_letter) | [R](#R_letter) | [S](#S_letter) | [T](#T_letter) | [U](#U_letter) | [V](#V_letter) | [W](#W_letter) | [X](#X_letter) | [Y](#Y_letter) | [Z](#Z_letter)
+<a href="#A-letter">A</a> | <a href="#B-letter">B</a> | <a href="#C-letter">C</a> | <a href="#D-letter">D</a> | <a href="#E-letter">E</a> | <a href="#F-letter">F</a> | <a href="#G-letter">G</a> | <a href="#H-letter">H</a> | <a href="#I-letter">I</a> | <a href="#J-letter">J</a> | <a href="#K-letter">K</a> | <a href="#L-letter">L</a> | <a href="#M-letter">M</a> | <a href="#N-letter">N</a> | <a href="#O-letter">O</a> | <a href="#P-letter">P</a> | <a href="#Q-letter">Q</a> | <a href="#R-letter">R</a> | <a href="#S-letter">S</a> | <a href="#T-letter">T</a> | <a href="#U-letter">U</a> | <a href="#V-letter">V</a> | <a href="#W-letter">W</a> | <a href="#X-letter">X</a> | <a href="#Y-letter">Y</a> | <a href="#Z-letter">Z</a>
 
-## A <a id="A_letter"></a>
+<h2>A<a id="A-letter"></a></h2>
 
-### Account <a id="account"></a>
+<h3>Account<a id="account"></a></h3>
 
 An **account** is a [cryptographically connected](https://en.wikipedia.org/wiki/Public-key_cryptography) pair of [public](#public-key) and [private keys](#private-key) on the [blockchain](#blockchain). Accounts uniquely correlate [transactions](#transaction) and [orders](#order) with their senders.
 
-### Account data storage <a id="account-data-storage"></a>
+<h3>Account data storage<a id="account-data-storage"></a></h3>
 
 An **account data storage** is the store of data records in the key-value format associated with the [account](#account). Each account has single data storage. The size of the account data storage is unlimited.
 
-### Account script <a id="account-script"></a>
+<h3>Account script<a id="account-script"></a></h3>
 
-An **account script** is a Ride script that has the following directives:
+An **account script** is a Ride [script](#script) that has the following directives:
 
 ```ride
 {-# CONTENT_TYPE EXPRESSION #-}
 {-# SCRIPT_TYPE ACCOUNT #-}
 ```
 
-The account script is attached to the account using the [set script transaction](/blockchain/transaction-type/set-script-transaction.md). Only one script can be attached to an [account](#account). An account with an account script attached is called a [smart account](#smart-account).
+The account script is attached to the [account](#account) using the [set script transaction](/blockchain/transaction-type/set-script-transaction.md). Only one script can be attached to an [account](#account). An account with an account script attached is called a [smart account](#smart-account).
 
-### Address <a id="address"></a>
+<h3>Address<a id="address"></a></h3>
 
 An **address** is a unique [account](#account) identifier. The address can be represented as an alphanumeric string.
 
-### Airdrop <a id="airdrop"></a>
+<h3>Airdrop<a id="airdrop"></a></h3>
 
-An [airdrop](#airdrop) is a simultaneous sending of tokens to multiple [addresses](#address). As a rule, the airdrop is used as an incentive for holders of a certain [token](#token) as part of a marketing campaign to promote a project, increase its recognition, and attract investors.
+An **airdrop** is a simultaneous sending of [tokens](#token) to multiple [addresses](#address). As a rule, the airdrop is used as an incentive for holders of a certain token as part of a marketing campaign to promote a project, increase its recognition, and attract investors.
 
-### Alias <a id="alias"></a>
+<h3>Alias<a id="alias"></a></h3>
 
 An **alias** is a short, easy-to-remember [address](#address) name. There cannot be two aliases with the same name. A single address can have multiple aliases.
 
-### Asset <a id="asset"></a>
+<h3>Asset<a id="asset"></a></h3>
 
 An asset is a synonym for the [token](#token).
 
-### Asset script <a id="asset-script"></a>
+<h3>Asset script<a id="asset-script"></a></h3>
 
 An **asset script** is a [Ride](#ride) [script](#script) that has the following directives:
 
@@ -50,154 +50,266 @@ An **asset script** is a [Ride](#ride) [script](#script) that has the following 
 
 The asset script is attached to the [asset](#asset) using the [set asset script transaction](/blockchain/transaction-type/set-asset-script-transaction.md). You can attach a script to an asset only at the time the asset creation. However, you can change the script later, if needed. An asset with a script attached to it is called a [smart asset](#smart-asset).
 
-## B <a id="B_letter"></a>
+<h2>B<a id="B-letter"></a></h2>
 
-### Block <a id="block"></a>
+<h3>Block<a id="block"></a></h3>
 
-A **block** is a unit of the [blockchain](#blockchain) chain. The block contains transactions: from 0 to 6000 inclusive. The maximum block size is 1 MB.
+A **block** is a unit of the [blockchain](#blockchain) chain. The block contains [transactions](#transaction): from 0 to 6000 inclusive. The maximum block size is 1 MB.
 
-### Blockchain <a id="blockchain"></a>
+<h3>Blockchain<a id="blockchain"></a></h3>
 
 A **blockchain** is a continuous sequential chain of [blocks](#block), that are linked using cryptography.
 
-### Block height <a id="block-height></a>
+<h3>Block height<a id="block-height"></a></h3>
 
-A **block height** is a block sequence number in the [blockchain](#blockchain).
+A **block height** is a [block](#block) sequence number in the [blockchain](#blockchain).
 
-### Blockchain height <a id="blockchain-height"></a>
+<h3>Blockchain height<a id="blockchain-height"></a></h3>
 
 A **blockchain height** is a sequence number of the last [block](#block) in the [blockchain](#blockchain).
 
-### Blockchain network <a id="blockchain-network"></a>
+<h3>Blockchain network<a id="blockchain-network"></a></h3>
 
 A **blockchain network** is a computer network that consists of [nodes](#node).
 
-### Block signature <a id="block-signature"></a>
+<h3>Block signature<a id="block-signature"></a></h3>
 
-A **block signature** is a [hash](#hash) that the [mining node](#mining-node) receives when it signs the generated [block](#block) with the [private key](#private-key) of the [mining account](#mining-account).
+A **block signature** is a [hash](#hash) that the [mining node](#mining-node) receives when it signs the [generated block](#block) with the [private key](#private-key) of the [mining account](#mining-account).
 
-## C <a id="C_letter"></a>
+<h2>C<a id="C-letter"></a></h2>
 
-### Consensus
+<h3>Consensus<a id="consensus"></a></h3>
 
-The consensus is a set of rules in accordance with which blockchain operates. Waves uses the LPoS consensus.
+The **consensus** is a set of rules in accordance with which [blockchain](#blockchain) operates. Waves uses the [LPoS consensus](#lpos).
 
-A cryptocurrency is a type of digital currency, the creation and control of which is based on cryptographic methods.
+<h3>Cryptocurrency<a id="cryptocurrency"></a></h3>
 
-D
-A dApp is an account with the dApp script attached.
+A **cryptocurrency** is a type of [digital currency](https://en.wikipedia.org/wiki/Digital_currency), the creation and control of which is based on cryptographic methods.
 
-A dApp script is a Ride script used to create dApp. The dApp script has the following directive:
+<h2>D<a id="D-letter"></a></h2>
 
+<h3>dApp<a id="dapp"></a></h3>
+
+A **dApp** is an [account](#account) with the [dApp script](#dapp-script) attached.
+
+<h3>dApp script<a id="dapp-script"></a></h3>
+
+A **dApp script** is a [Ride](#ride) [script](#script) used to create [dApp](#dapp). The dApp script has the following directive:
+
+```ride
 {-# CONTENT_TYPE DAPP #-}
-dApp-script can be attached to the account using the set script transaction, and, as a result, the dApp will be created.
+```
 
+dApp-script can be attached to the [account](#account) using the [set script transaction](/blockchain/transaction-type/set-script-transaction.md), and, as a result, the dApp will be created.
 
+<h3>Decentralized application<a id="decentralized-application"></a></h3>
 
-A decentralized application is an application that is stored and executed on the blockchain network.
+A **decentralized application** is an application that is stored and executed on the [blockchain network](#blockchain-network).
 
-DEX (or Waves DEX) is a decentralized exchange (https://dex.wavesplatform.com) that allows users to issue and trade tokens within the Waves blockchain.
+<h3>DEX<a id="dex"></a></h3>
 
-E
-Explorer (or Waves Explorer) is an online service (https://wavesexplorer.com) that displays Waves blockchain data in a human-readable form. 
+**DEX** (or Waves DEX) is a decentralized exchange (https://dex.wavesplatform.com) that allows users to issue and trade [tokens](#token) within the Waves [blockchain](#blockchain).
 
-F
-A test network faucet (or faucet) is a Waves Explorer tool that refills the test network accounts with the WAVES test tokens. For one recharge, the user receives 10 testnet WAVES.
+<h2>E<a id="E-letter"></a></h2>
 
-G
-Gateway is a centralized payment solution that allows transferring cryptocurrencies from one blockchain to another and vice versa; as well as transferring fiat money to and out of the blockchain. 
+<h3>Explorer<a id="explorer"></a></h3>
 
-The genesis block (or genesis) is the very first block of the blockchain. The genesis block contains one or several genesis transactions.
+**Explorer** (or Waves Explorer) is an online service (https://wavesexplorer.com) that displays Waves [blockchain](#blockchain) data in a human-readable form.
 
-Genesis transaction is a genesis block transaction that charges WAVES to an account. The genesis transactions define the initial distribution of WAVES between accounts during the creation of the blockchain.
+<h2>F<a id="F-letter"></a></h2>
 
-H
-A hash is a result of applying a hash function.
+<h3>Faucet<a id="faucet"></a></h3>
 
-A hash function (or fold function) is a function that converts an array of input data of arbitrary length into a bit string of a fixed length, performed by a certain algorithm.
+A **test network faucet** (or faucet) is a [Waves Explorer](#explorer) tool that refills the [test network](#test-network) [accounts](#account) with the [WAVES](#waves) test [tokens](#token). For one recharge, the user receives 10 testnet WAVES.
 
-K
-Keeper (or Waves Keeper) is a web browser extension that allows users to securely interact with Waves-enabled web services.
+<h2>G<a id="G-letter"></a></h2>
 
-L
-Leasing is a temporary reversible transfer of WAVES from one account to another to increase the stability and security of the network, as well as potentially get mining reward. Note that the WAVES tokens are not actually being transferred to another account, they remain on the sender's balance, however, they are 'frozen' and cannot participate in the buying and selling operations, as well as they cannot be sent to another account. The leased tokens provide the leasing recipient with a greater chance of mining a block. The recipient of the lease can share the income from mining with the one who leased WAVES to him. However, the Waves platform does not regulate the payment process for LPoS mining, this remains at the discretion of the miner. At any time, the sender can 'unfreeze' tokens by invoking the Lease Cancel transaction.
+<h3>Gateway<a id="gateway"></a></h3>
 
-LPoS (or Leased Proof-of-Stake) is a consensus algorithm in which the probability of generating the next block by the participant is proportional to the share of cryptocurrency belonging to this participant or leased to this participant from their total supply. In other words, the more tokens on the account of the miner (own and leased to them), the higher the probability of generating the next block.
+**Gateway** is a centralized payment solution that allows transferring [cryptocurrencies](#cryptocurrency) from one [blockchain](#blockchain) to another and vice versa; as well as transferring fiat money to and out of the blockchain.
 
-М
-The mainnet (or main network) is the main Waves blockchain network.
+<h3>Genesis block<a id="genesis-block"></a></h3>
 
-A matcher is a node extension that executes orders on the DEX exchange.
+The **genesis block** (or genesis) is the very first [block](#block) of the [blockchain](#blockchain). The genesis block contains one or several [genesis transactions](/blockchain/transaction-types/genesis-transaction.md).
 
-A miner is the owner of the mining node.
+<h3>Genesis transaction<a id="genesis-transaction"></a></h3>
 
-Mining is the process of generating a block by a mining node, as a result of which a new block is added to the blockchain and WAVES tokens are issued. For block generation, miners receive a reward for mining, as well as transaction fees, according to the rules of the Waves-NG protocol.
+**Genesis transaction** is a [genesis block](#genesis-block) [transaction](#transaction) that charges [WAVES](#waves) to an [account](#account). The genesis transactions define the initial distribution of WAVES between accounts during the creation of the [blockchain](#blockchain).
 
-A mining account is an account that the mining node uses to sign the generated blocks.
+<h2>H<a id="H-letter"></a></h2>
 
-A mining node is a node that can perform mining. Each mining node is a validating node.
+<h3>Hash<a id="hash"></a></h3>
 
-Multisignature is an implementation of an electronic signature that requires the use of several private keys as a condition for transaction execution.
+A **hash** is a result of applying a [hash function](#hash-function).
 
-N
-NFT (Non-Fungible Token) is a token with unique ID. Two 'regular' tokens can not be distinguished from each other — they are the same, i.e. fungible. Each NFT is unique; there cannot be two identical NFTs. Most often NFTs are used in games.
+<h3>Hash function<a id="hash-function"></a></h3>
 
-A node is a host that is connected to the blockchain network using the Waves Node application. The node stores blocks, sends and validates transactions.
+A **hash function** (or fold function) is a function that converts an array of input data of arbitrary length into a bit string of a fixed length, performed by a certain algorithm.
 
-O
-Oracle is a provider of data from the outside world to the blockchain.
+<h2>K<a id="K-letter"></a></h2>
 
-An oracle card is a public description of the oracle in the blockchain according to a standardized protocol in the form of a data transaction.
+<h3>Keeper<a id="keeper"></a></h3>
 
-Order (or exchange order) is an instruction to buy or sell a token on DEX.
+**Keeper** (or Waves Keeper) is a web browser extension that allows users to securely interact with Waves-enabled web services.
 
-P
-PoS (Proof-of-Stake) is a consensus algorithm in which the probability of generating the next block is proportional to the share of cryptocurrency belonging to this participant from their total supply. In other words, the more tokens on the account of a miner, the higher the probability of generating the next block.
+<h2>L<a id="L-letter"></a></h2>
 
+<h3>Leasing<a id="leasing"></a></h3>
 
+**Leasing** is a temporary reversible transfer of [WAVES](#waves) from one account to another to [increase the stability and security of the network](/waves-client/account-management/waves-leasing.md), as well as potentially get [mining reward](/blockchain/mining/mining-reward.md). Note that the WAVES [tokens](#token) are not actually being transferred to another [account](#account), they remain on the sender's balance, however, they are 'frozen' and cannot participate in the buying and selling operations, as well as they cannot be sent to another account. The leased tokens provide the leasing recipient with a greater chance of [mining](#mining) a [block](#block). The recipient of the lease can share the income from mining with the one who leased WAVES to him. However, the Waves platform does not regulate the payment process for [LPoS](#lpos) [mining](#mining), this remains at the discretion of the [miner](#miner). At any time, the sender can 'unfreeze' tokens by invoking the [Lease Cancel transaction](/blockchain/transaction-type/lease-cancel-transaction.md).
 
-PoW (Proof-of-Work) is a consensus algorithm in which it is required to perform a complex calculation in order to generate a new block. That is, the higher the performance of the miner's equipment, the higher the probability of generating the next block.
+<h3>LPoS<a id="lpos"></a></h3>
 
-The private key is one of a pair of account keys. The account owner signs the transaction with the private key before sending it, and, as a result, gets the digital signature of the transaction.
+**LPoS** (or Leased Proof-of-Stake) is a [consensus](#consensus) algorithm in which the probability of generating the next [block](#block) by the participant is proportional to the share of [cryptocurrency](#cryptocurrency) belonging to this participant or leased to this participant from their total supply. In other words, the more [tokens](#token) on the [account](#account) of the [miner](#miner) (own and leased to them), the higher the probability of generating the next block.
 
-The public key is one of a pair of account keys. A public key uniquely correlates a transaction with its sender. The transaction signature is checked against the public key with some function, and, if it returns true, we can be sure that the user has valid private key for this public key.
+<h2>M<a id="M-letter"></a></h2>
 
-R
- The RIDE is a functional expression-based programming language. RIDE is used to write scripts. The language has strong static typing, it is case sensitive, has no loops, recursions, and goto-like expressions, and therefore it is Turing-incomplete.
+<h3>Mainnet<a id="mainnet"></a></h3>
 
-S
-A script is the source code on the RIDE language. There are three types of scripts: dApp script, account script, asset script.
+The **mainnet** (or main network) is the main Waves [blockchain network](#blockchain-network).
 
-Secret phrase (or Seed) is a set of characters (usually, it is 15 English words with spaces between them) that allows you to access your Waves address and, accordingly, the funds on your account. When registering an account, you are asked to keep your secret phrase safe.
+<h3>Matcher<a id="matcher"></a></h3>
 
-A smart account is an account with an account script attached. Only one script can be attached to an account. The account script is attached to the account using the set script transaction.
+A **matcher** is a [node](#node) extension that executes [orders](#order) on the [DEX](#dex) exchange.
 
-A smart asset is a token with an asset script attached.
+<h3>Miner<a id="miner"></a></h3>
 
-Stagenet (or staging network) is the Waves blockchain network, which is used for experiments, intermediate testing of new functionality, as well as providing access for the Waves community to intermediate releases. It is important to consider that this network is unstable, a frequent rollback of blockchain data to the N-th height in the past is possible.
+A **miner** is the owner of the [mining node](#mining-node).
 
-T
-Test network (or testnet) is a Waves blockchain test network, which is used by developers to test their products, and by users to get acquainted with the blockchain.
+<h3>Mining<a id="mining"></a></h3>
 
-A token is a blockchain object that represents another object from the physical or virtual world or an abstract concept.
+**Mining** is the process of generating a [block](#block) by a [mining node](#mining-node), as a result of which a new block is added to the [blockchain](#blockchain) and [WAVES](#waves) [tokens](#token) are issued. For block generation, [miners](#miner) receive a [reward for mining](/blockchain/mining/mining-reward.md), as well as [transaction fees](/blockchain/transaction/transaction-fee.md), according to the rules of the [Waves-NG](/blockchain/waves-protocol/waves-ng-protocol.md) protocol.
 
-Token Rating is an online service (https://tokenrating.wavesexplorer.com) that displays the ratings of tokens (projects) issued on the Waves platform. The service allows users to vote for a particular token.
+<h3>Mining account<a id="mining-account"></a></h3>
 
-The transaction is an action on the blockchain on behalf of the account. Transactions can be sent only from the account — thus, any transaction can be correlated with a certain account.
+A **mining account** is an [account](#account) that the [mining node](#mining-node) uses to [sign](#block-signature) the generated [blocks](#blocks).
 
-U
-UTX pool (or Unconfirmed Transactions pool) is a pool of unconfirmed node transactions that are waiting for validation. 
+<h3>Mining node<a id="mining-node"></a></h3>
 
-V
-A validating node is a node that validates transactions.
+A **mining node** is a [node](#node) that can perform [mining](#mining). Each mining node is a [validating node](#validating-node).
 
-W
-A wallet is a section of the Waves DEX online service. It allows us to send and receive tokens, view transactions and cryptocurrency rates, and lease WAVES.
+<h3>Multisignature<a id="multisignature"></a></h3>
 
-WAVELET is 1/100 000 000 WAVES. 1 WAVELET is the minimum number of WAVES that you can work with within the Waves blockchain.
+**Multisignature** is an implementation of an electronic signature that requires the use of several [private keys](#private-key) as a condition for [transaction](#transaction) execution.
 
-WAVES is the main token of the Waves platform. 1 WAVES equals 100,000,000 WAVELET. In April 2016, 100 million WAVES were released. WAVES cannot be burned using a burn transaction.
+<h2>N<a id="N-letter"></a></h2>
 
-WCT (or Waves Community Token) is a token used by members of the Waves community during voting and other activities.
+<h3>NFT<a id="nft"></a></h3>
 
-WRT (or Waves Reward Token) is a token that is used to reward contributors. Contributors can participate in the creation of dApps, serve as external auditors or assist in events and receive rewards for this. The more difficult the ambassador’s task is, the more WRT tokens they can get. Also, with the help of WRT, Waves community members can thank the most influential and useful members of the Waves ecosystem.
+**NFT** (Non-Fungible Token) is a [token](#token) with unique ID. Two 'regular' tokens can not be distinguished from each other — they are the same, i.e. fungible. Each NFT is unique; there cannot be two identical NFTs. Most often NFTs are used in games.
+
+<h3>Node<a id="node"></a></h3>
+
+A **node** is a [host](https://ru.wikipedia.org/wiki/Хост) that is connected to the [blockchain network](#blockchain-network) using the [Waves Node](https://github.com/wavesplatform/Waves) application. The node stores [blocks](#block), sends and validates [transactions](#transaction).
+
+<h2>O<a id="O-letter"></a></h2>
+
+<h3>Oracle<a id="oracle"></a></h3>
+
+**Oracle** is a provider of data from the outside world to the [blockchain](#blockchain).
+
+<h3>Oracle card<a id="oracle-card"></a></h3>
+
+An **oracle card** is a public description of the [oracle](#oracle) in the [blockchain](#blockchain) according to a [standardized protocol](/waves-oracles/create-an-oracle-card-with-a-data-transaction.md) in the form of a [data transaction](/blockchain/transaction-type/data-transaction.md).
+
+<h3>Order<a id="order"></a></h3>
+
+**Order** (or exchange order) is an instruction to buy or sell a [token](#token) on [DEX](#dex).
+
+<h2>P<a id="P-letter"></a></h2>
+
+<h3>PoS<a id="pos"></a></h3>
+
+**PoS** (Proof-of-Stake) is a [consensus](#consensus) algorithm in which the probability of generating the next [block](#block) is proportional to the share of [cryptocurrency](#cryptocurrency) belonging to this participant from their total supply. In other words, the more [tokens](#token) on the [account](#account) of a [miner](#miner), the higher the probability of generating the next block.
+
+<h3>PoW<a id="pow"></a></h3>
+
+**PoW** (Proof-of-Work) is a [consensus](#consensus) algorithm in which it is required to perform a complex calculation in order to generate a new [block](#block). That is, the higher the performance of the [miner's](#miner) equipment, the higher the probability of generating the next block.
+
+<h3>Private key<a id="private-key"></a></h3>
+
+The **private key** is one of a pair of [account](#account) keys. The account owner signs the [transaction](#transaction) with the [private key](#private-key) before sending it, and, as a result, gets the digital signature of the transaction.
+
+<h3>Public key<a id="public-key"></a></h3>
+
+The **public key** is one of a pair of [account](#account) keys. A public key uniquely correlates a [transaction](#transaction) with its sender. The transaction signature is checked against the public key with some function, and, if it returns true, we can be sure that the user has valid [private key](#private-key) for this public key.
+
+<h2>R<a id="R-letter"></a></h2>
+
+<h3>Ride<a id="ride"></a></h3>
+
+The **Ride** is a functional expression-based programming language. Ride is used to write [scripts](#script). The language has [strong static typing](https://en.wikipedia.org/wiki/Type_system), it is case sensitive, has no loops, recursions, and goto-like expressions, and therefore it is [Turing-incomplete](https://en.wikipedia.org/wiki/Turing_completeness).
+
+<h2>S<a id="S-letter"></a></h2>
+
+<h3>Script<a id="script"></a></h3>
+
+A **script** is the source code on the [Ride](#ride) language. There are three types of scripts: [dApp script](#dapp-script), [account script](#account-script), [asset script](#asset-script).
+
+<h3>Secret phrase<a id="secret-phrase"></a></h3>
+
+**Secret phrase** (or Seed) is a set of characters (usually, it is 15 English words with spaces between them) that allows you to access your Waves [address](#address) and, accordingly, the funds on your [account](#account). When registering an account, you are asked to keep your secret phrase safe.
+
+<h3>Smart account<a id="smart-account"></a></h3>
+
+A **smart account** is an [account](#account) with an [account script](#account-script) attached. Only one script can be attached to an account. The account script is attached to the account using the [set script transaction](/blockchain/transaction-type/set-script-transaction.md).
+
+<h3>Smart asset<a id="smart-asset"></a></h3>
+
+A **smart asset** is a [token](#token) with an [asset script](#asset-script) attached.
+
+<h3>Stagenet<a id="stagenet"></a></h3>
+
+**Stagenet** (or staging network) is the Waves [blockchain network](#blockchain-network), which is used for experiments, intermediate testing of new functionality, as well as providing access for the Waves community to intermediate releases. It is important to consider that this network is unstable, a frequent rollback of blockchain data to the N-th height in the past is possible.
+
+<h2>T<a id="T-letter"></a></h2>
+
+<h3>Test network<a id="test-network"></a></h3>
+
+**Test network** (or testnet) is a Waves [blockchain](#blockchain) test network, which is used by developers to test their products, and by users to get acquainted with the blockchain.
+
+<h3>Token<a id="token"></a></h3>
+
+A **token** is a [blockchain](#blockchain) object that represents another object from the physical or virtual world or an abstract concept.
+
+<h3>Token rating<a id="token-rating"></a></h3>
+
+**Token Rating** is an online service (https://tokenrating.wavesexplorer.com) that displays the ratings of [tokens](#token) (projects) issued on the Waves platform. The service allows users to vote for a particular token.
+
+<h3>Transaction<a id="transaction"></a></h3>
+
+The **transaction** is an action on the [blockchain](#blockchain) on behalf of the [account](#account). Transactions can be sent only from the account — thus, any transaction can be correlated with a certain account.
+
+<h2>U<a id="U-letter"></a></h2>
+
+<h3>UTX pool<a id="utx-pool"></a></h3>
+
+**UTX pool** (or Unconfirmed Transactions pool) is a pool of unconfirmed [node](#node) [transactions](#transaction) that are waiting for validation.
+
+<h2>V<a id="V-letter"></a></h2>
+
+<h3>Validating node<a id="validating-node"></a></h3>
+
+A **validating node** is a [node](#node) that validates [transactions](#transaction).
+
+<h2>W<a id="W-letter"></a></h2>
+
+<h3>Wallet<a id="wallet"></a></h3>
+
+A **wallet** is a section of the [Waves DEX](#dex) online service. It allows us to send and receive [tokens](#token), view [transactions](#transaction) and [cryptocurrency](#cryptocurrency) rates, and [lease](#leasing) [WAVES](#waves).
+
+<h3>WAVELET<a id="wavelet"></a></h3>
+
+**WAVELET** is 1/100 000 000 [WAVES](#waves). 1 WAVELET is the minimum number of WAVES that you can work with within the Waves [blockchain](#blockchain).
+
+<h3>WAVES<a id="waves"></a></h3>
+
+**WAVES** is the main [token](#token) of the Waves platform. 1 WAVES equals 100,000,000 [WAVELET](#wavelet). In April 2016, 100 million WAVES were released. WAVES cannot be burned using a [burn transaction](/blockchain/transaction-type/burn-transaction.md).
+
+<h3>WCT<a id="wct"></a></h3>
+
+**WCT** (or Waves Community Token) is a [token](#token) used by members of the Waves community during voting and other activities.
+
+<h3>WRT<a id="wrt"></a></h3>
+
+**WRT** (or Waves Reward Token) is a [token](#token) that is used to reward contributors. Contributors can participate in the creation of [dApps](#dapp), serve as external auditors or assist in events and receive rewards for this. The more difficult the contributor’s task is, the more WRT tokens they can get. Also, with the help of WRT, Waves community members can thank the most influential and useful members of the Waves ecosystem.
