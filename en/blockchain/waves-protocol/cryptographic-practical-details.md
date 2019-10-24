@@ -1,14 +1,16 @@
 # Description
 
-This section describes all the details of cryptographic algorithms which are used to:  
+This section describes all the details of cryptographic algorithms which are used to: 
+
 1. Create private and public keys from seed.  
 2. Create addresses from public key.  
 3. Create blocks and transactions signing.
 
-We use:  
-1.  `Blake2b256` and `Keccak256` algorithms \(in the form of hash chain\) to create a cryptographic hashes used .  
-2. `Curve25519` \(ED25519 with X25519 keys\) in order to create and verify signatures.  
-3. `Base58` is used to create the string form of bytes.
+We use:
+
+1. `Blake2b256` and `Keccak256` algorithms (in the form of hash chain) to create a cryptographic hashes.
+2. `Curve25519` (ED25519 with X25519 keys) to create and verify signatures.  
+3. `Base58` to create the string form of bytes.
 
 **Note**: We use KECCAK which differs slightly than that assigned as the SHA-3 \(FIPS-202\).
 
