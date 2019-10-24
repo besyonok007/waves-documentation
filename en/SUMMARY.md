@@ -439,3 +439,5 @@
   * [Trezor hardware wallet integration specification](resources/trezor-hardware-wallet-integration-specification.md)
   * [Sponsored transactions](resources/sponsored-transactions.md)
 * [News archive](miscellaneous/news-archive.md)
+
+## [Glossary](glossary.md)
