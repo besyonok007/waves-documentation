@@ -1,6 +1,8 @@
 <h1>Glossary</h1>
 
-<h2>A</h2>
+<a href="#A-letter">A</a> | <a href="#B-letter">B</a> | <a href="#C-letter">C</a> | <a href="#D-letter">D</a> | <a href="#E-letter">E</a> | <a href="#F-letter">F</a> | <a href="#G-letter">G</a> | <a href="#H-letter">H</a> | I | J | <a href="#K-letter">K</a> | <a href="#L-letter">L</a> | <a href="#M-letter">M</a> | <a href="#N-letter">N</a> | <a href="#O-letter">O</a> | <a href="#P-letter">P</a> | Q | <a href="#R-letter">R</a> | <a href="#S-letter">S</a> | <a href="#T-letter">T</a> | <a href="#U-letter">U</a> | <a href="#V-letter">V</a> | <a href="#W-letter">W</a> | X | Y | Z
+
+<h2>A</h2><a id="A-letter"></a>
 
 <h3>Account</h3><a id="account-data-storage"></a>
 
@@ -49,7 +51,7 @@ An **asset script** is a [Ride](#ride) [script](#script) that has the following 
 
 The asset script is attached to the [asset](#asset) using the [set asset script transaction](/blockchain/transaction-type/set-asset-script-transaction.md). You can attach a script to an asset only at the time the asset creation. However, you can change the script later, if needed. An asset with a script attached to it is called a [smart asset](#smart-asset).
 
-<h2>B</h2>
+<h2>B</h2><a id="B-letter"></a>
 
 <h3>Block</h3><a id="block"></a>
 
@@ -75,7 +77,7 @@ A **blockchain network** is a computer network that consists of [nodes](#node).
 
 A **block signature** is a [hash](#hash) that the [mining node](#mining-node) receives when it signs the [generated block](#block) with the [private key](#private-key) of the [mining account](#mining-account).
 
-<h2>C</h2>
+<h2>C</h2><a id="C-letter"></a>
 
 <h3>Consensus</h3><a id="consensus"></a>
 
@@ -85,7 +87,7 @@ The **consensus** is a set of rules in accordance with which [blockchain](#block
 
 A **cryptocurrency** is a type of [digital currency](https://en.wikipedia.org/wiki/Digital_currency), the creation and control of which is based on cryptographic methods.
 
-<h2>D</h2>
+<h2>D</h2><a id="D-letter"></a>
 
 <h3>dApp</h3><a id="dapp"></a>
 
@@ -109,19 +111,19 @@ A **decentralized application** is an application that is stored and executed on
 
 **DEX** (or Waves DEX) is a decentralized exchange (https://dex.wavesplatform.com) that allows users to issue and trade [tokens](#token) within the Waves [blockchain](#blockchain).
 
-<h2>E</h2>
+<h2>E</h2><a id="E-letter"></a>
 
 <h3>Explorer</h3><a id="explorer"></a>
 
 **Explorer** (or Waves Explorer) is an online service (https://wavesexplorer.com) that displays Waves [blockchain](#blockchain) data in a human-readable form.
 
-<h2>F</h2>
+<h2>F</h2><a id="F-letter"></a>
 
 <h3>Faucet</h3><a id="faucet"></a>
 
 A **test network faucet** (or faucet) is a [Waves Explorer](#explorer) tool that refills the [test network](#test-network) [accounts](#account) with the [WAVES](#waves) test [tokens](#token). For one recharge, the user receives 10 testnet WAVES.
 
-<h2>G</h2>
+<h2>G</h2><a id="G-letter"></a>
 
 <h3>Gateway</h3><a id="gateway"></a>
 
@@ -135,7 +137,7 @@ The **genesis block** (or genesis) is the very first [block](#block) of the [blo
 
 **Genesis transaction** is a [genesis block](#genesis-block) [transaction](#transaction) that charges [WAVES](#waves) to an [account](#account). The genesis transactions define the initial distribution of WAVES between accounts during the creation of the [blockchain](#blockchain).
 
-<h2>H</h2>
+<h2>H</h2><a id="H-letter"></a>
 
 <h3>Hash</h3><a id="hash"></a>
 
@@ -145,13 +147,13 @@ A **hash** is a result of applying a [hash function](#hash-function).
 
 A **hash function** (or fold function) is a function that converts an array of input data of arbitrary length into a bit string of a fixed length, performed by a certain algorithm.
 
-<h2>K</h2>
+<h2>K</h2><a id="K-letter"></a>
 
 <h3>Keeper</h3><a id="keeper"></a>
 
 **Keeper** (or Waves Keeper) is a web browser extension that allows users to securely interact with Waves-enabled web services.
 
-<h2>L</h2>
+<h2>L</h2><a id="L-letter"></a>
 
 <h3>Leasing</h3><a id="leasing"></a>
 
@@ -161,7 +163,7 @@ A **hash function** (or fold function) is a function that converts an array of i
 
 **LPoS** (or Leased Proof-of-Stake) is a [consensus](#consensus) algorithm in which the probability of generating the next [block](#block) by the participant is proportional to the share of [cryptocurrency](#cryptocurrency) belonging to this participant or leased to this participant from their total supply. In other words, the more [tokens](#token) on the [account](#account) of the [miner](#miner) (own and leased to them), the higher the probability of generating the next block.
 
-<h2>M</h2>
+<h2>M</h2><a id="M-letter"></a>
 
 <h3>Mainnet</h3><a id="mainnet"></a>
 
@@ -191,7 +193,7 @@ A **mining node** is a [node](#node) that can perform [mining](#mining). Each mi
 
 **Multisignature** is an implementation of an electronic signature that requires the use of several [private keys](#private-key) as a condition for [transaction](#transaction) execution.
 
-<h2>N</h2>
+<h2>N</h2><a id="N-letter"></a>
 
 <h3>NFT</h3><a id="nft"></a>
 
@@ -201,7 +203,7 @@ A **mining node** is a [node](#node) that can perform [mining](#mining). Each mi
 
 A **node** is a [host](https://ru.wikipedia.org/wiki/Хост) that is connected to the [blockchain network](#blockchain-network) using the [Waves Node](https://github.com/wavesplatform/Waves) application. The node stores [blocks](#block), sends and validates [transactions](#transaction).
 
-<h2>O</h2>
+<h2>O</h2><a id="O-letter"></a>
 
 <h3>Oracle</h3><a id="oracle"></a>
 
@@ -215,7 +217,7 @@ An **oracle card** is a public description of the [oracle](#oracle) in the [bloc
 
 **Order** (or exchange order) is an instruction to buy or sell a [token](#token) on [DEX](#dex).
 
-<h2>P</h2>
+<h2>P</h2><a id="P-letter"></a>
 
 <h3>PoS</h3><a id="pos"></a>
 
@@ -233,13 +235,13 @@ The **private key** is one of a pair of [account](#account) keys. The account ow
 
 The **public key** is one of a pair of [account](#account) keys. A public key uniquely correlates a [transaction](#transaction) with its sender. The transaction signature is checked against the public key with some function, and, if it returns true, we can be sure that the user has valid [private key](#private-key) for this public key.
 
-<h2>R</h2>
+<h2>R</h2><a id="R-letter"></a>
 
 <h3>Ride</h3><a id="ride"></a>
 
 The **Ride** is a functional expression-based programming language. Ride is used to write [scripts](#script). The language has [strong static typing](https://en.wikipedia.org/wiki/Type_system), it is case sensitive, has no loops, recursions, and goto-like expressions, and therefore it is [Turing-incomplete](https://en.wikipedia.org/wiki/Turing_completeness).
 
-<h2>S</h2>
+<h2>S</h2><a id="S-letter"></a>
 
 <h3>Script</h3><a id="script"></a>
 
@@ -261,7 +263,7 @@ A **smart asset** is a [token](#token) with an [asset script](#asset-script) att
 
 **Stagenet** (or staging network) is the Waves [blockchain network](#blockchain-network), which is used for experiments, intermediate testing of new functionality, as well as providing access for the Waves community to intermediate releases. It is important to consider that this network is unstable, a frequent rollback of blockchain data to the N-th height in the past is possible.
 
-<h2>T</h2>
+<h2>T</h2><a id="T-letter"></a>
 
 <h3>Test network</h3><a id="test-network"></a>
 
@@ -279,19 +281,19 @@ A **token** is a [blockchain](#blockchain) object that represents another object
 
 The **transaction** is an action on the [blockchain](#blockchain) on behalf of the [account](#account). Transactions can be sent only from the account — thus, any transaction can be correlated with a certain account.
 
-<h2>U</h2>
+<h2>U</h2><a id="U-letter"></a>
 
 <h3>UTX pool</h3><a id="utx-pool"></a>
 
 **UTX pool** (or Unconfirmed Transactions pool) is a pool of unconfirmed [node](#node) [transactions](#transaction) that are waiting for validation.
 
-<h2>V</h2>
+<h2>V</h2><a id="V-letter"></a>
 
 <h3>Validating node</h3><a id="validating-node"></a>
 
 A **validating node** is a [node](#node) that validates [transactions](#transaction).
 
-<h2>W</h2>
+<h2>W</h2><a id="W-letter"></a>
 
 <h3>Wallet</h3><a id="wallet"></a>
 
