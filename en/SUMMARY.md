@@ -440,4 +440,6 @@
   * [Sponsored transactions](resources/sponsored-transactions.md)
 * [News archive](miscellaneous/news-archive.md)
 
-## [Glossary](glossary.md)
+## Glossary
+
+* [Glossary](glossary.md)
