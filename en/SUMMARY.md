@@ -442,4 +442,4 @@
 
 ## Glossary
 
-* [Glossary](glossary.md)
+* [Glossary](glossary/glossary.md)
