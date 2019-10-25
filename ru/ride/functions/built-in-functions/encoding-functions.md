@@ -17,9 +17,16 @@ toBase16String(bytes: ByteVector): String
 
 ### Параметры
 
-#### `bytes`: ByteVector
+#### `bytes`: [ByteVector](/ride/data-types/byte-vector.md)
 
 Массив байтов для кодирования.
+
+### Примеры
+
+```ride
+toBase16String("Ride".toBytes()) # Возвращает "52696465"
+toBase16String(base16'52696465') # Возвращает "52696465"
+```
 
 ## toBase58String(ByteVector): String<a id="to-base-58-string"></a>
 
@@ -31,9 +38,16 @@ toBase58String(bytes: ByteVector): String
 
 ### Параметры
 
-#### `bytes`: ByteVector
+#### `bytes`: [ByteVector](/ride/data-types/byte-vector.md)
 
 Массив байтов для кодирования.
+
+### Примеры
+
+```ride
+toBase58String("Ride".toBytes()) # Возвращает "37BPKA"
+toBase58String(base58'37BPKA') # Возвращает "37BPKA"
+```
 
 ## toBase64String(ByteVector): String<a id="to-base-64-string"></a>
 
@@ -45,6 +59,13 @@ toBase64String(bytes: ByteVector): String
 
 ### Параметры
 
-#### `bytes`: ByteVector
+#### `bytes`: [ByteVector](/ride/data-types/byte-vector.md)
 
 Массив байтов для кодирования.
+
+### Примеры
+
+```ride
+toBase64String("Ride".toBytes()) # Возвращает "UmlkZQ=="
+toBase64String(base64'UmlkZQ==') # Возвращает "UmlkZQ=="
+```

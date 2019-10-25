@@ -17,9 +17,16 @@ toBase16String(bytes: ByteVector): String
 
 ### Parameters
 
-#### `bytes`: ByteVector
+#### `bytes`: [ByteVector](/ride/data-types/byte-vector.md)
 
 The array of bytes to encode.
+
+### Examples
+
+```ride
+toBase16String("Ride".toBytes()) # Returns "52696465"
+toBase16String(base16'52696465') # Returns "52696465"
+```
 
 ## toBase58String(ByteVector): String<a id="to-base-58-string"></a>
 
@@ -31,9 +38,16 @@ toBase58String(bytes: ByteVector): String
 
 ### Parameters
 
-#### `bytes`: ByteVector
+#### `bytes`: [ByteVector](/ride/data-types/byte-vector.md)
 
 The array of bytes to encode.
+
+### Examples
+
+```ride
+toBase58String("Ride".toBytes()) # Returns "37BPKA"
+toBase58String(base58'37BPKA')  # Returns "37BPKA"
+```
 
 ## toBase64String(ByteVector): String<a id="to-base-64-string"></a>
 
@@ -45,6 +59,13 @@ toBase64String(bytes: ByteVector): String
 
 ### Parameters
 
-#### `bytes`: ByteVector
+#### `bytes`: [ByteVector](/ride/data-types/byte-vector.md)
 
 The array of bytes to encode.
+
+### Examples
+
+```ride
+toBase64String("Ride".toBytes()) # Returns "UmlkZQ=="
+toBase64String(base64'UmlkZQ==') # Returns "UmlkZQ=="
+```
