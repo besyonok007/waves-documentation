@@ -348,3 +348,7 @@
 * [Leased Proof Of Stake (Lpos)](platform-features/leased-proof-of-stake-lpos.md)
 * [Официальные ресурсы](overview/waves-official-resources.md)
 * [Архив новостей](miscellaneous/news-archive.md)
+
+### Глоссарий
+
+* [Глоссарий](glossary/glossary.md)
