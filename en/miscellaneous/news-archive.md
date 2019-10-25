@@ -177,7 +177,7 @@
 ### Waves Client
 
 * Transfers and gateways
-  * [Vostok transfers](/waves-client/transfers-and-gateways/vostok-transfers.md)
+  * [Waves Enterprise transfers](/waves-client/transfers-and-gateways/waves-enetrprise-transfers.md)
 
 ### Waves DEX
 

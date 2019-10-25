@@ -3,7 +3,7 @@
 В данном разделе содержатся все необходимые сведения о транзакциях ввода и вывода криптовалют, которые поддерживает платформа Waves. Все транзакции с внешними криптовалютами обрабатываются [платежными шлюзами](/waves-client/frequently-asked-questions-faq/mobile-apps/iOS/payment-gateway.md).
 
 * [Переводы Waves (iOS)](transfers-and-gateways/waves-transfers.md)
-* [Переводы Vostok (iOS)](transfers-and-gateways/vostok-transfers.md)
+* [Переводы Waves Enterprise (iOS)](transfers-and-gateways/waves-enterprise-transfers.md)
 * [Переводы ассетов (iOS)](transfers-and-gateways/asset-transfers.md)
 * [Переводы Bitcoin (iOS)](transfers-and-gateways/bitcoin-transfers.md)
 * [Переводы Ethereum (iOS)](transfers-and-gateways/ethereum-transfers.md)

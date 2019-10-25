@@ -1,39 +1,39 @@
 ## Introduction
 
-Waves allow you to hold and transfer Vostok on its blockchain. This works through a so-called Multigateway approach: Vostok tokens are sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Vostok tokens issued in the Waves blockchain. Every single Waves based Vostok token is backed 1:1 with the Vostok token from the external network.
+Waves allow you to hold and transfer Waves Enterprise on its blockchain. This works through a so-called Multigateway approach: Waves Enterprise tokens are sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Waves Enterprise tokens issued in the Waves blockchain. Every single Waves based Waves Enterprise token is backed 1:1 with the Waves Enterprise token from the external network.
 
-## How to receive Vostok
+## How to receive Waves Enterprise
 
 Open your Waves wallet.
-In the Vostok section click on the **Receive** button.
+In the Waves Enterprise section click on the **Receive** button.
 
 ![](/_assets/vostok_transfers_01.png)
 
 The following window will appear. Before proceeding please carefully read the conditions:
 
-**The minimum amount of deposit is 0.1 VST**
+**The minimum amount of deposit is 0.1 WE**
 ```
-If you will send less than 0.1 VST, you will lose that money.
+If you will send less than 0.1 WE, you will lose that money.
 ```
-**Send only Vostok to this deposit address**
+**Send only Waves Enterprise to this deposit address**
 ```
 Sending any other currency to this address may result in the total loss of your deposit.
 ```
 
-Copy the shown Vostok address or Scan QR Code and send a payment.
+Copy the shown Waves Enterprise address or Scan QR Code and send a payment.
 
 ![](/_assets/vostok_transfers_02.png)
 
-## How to send Vostok
+## How to send Waves Enterprise
 
 Open your Waves wallet,  
-In the Vostok section, click on the **Send** button.
+In the Waves Enterprise section, click on the **Send** button.
 
 ![](/_assets/vostok_transfers_01.png)
 
 The following pop-up will appear.  
-Paste the Vostok address you want to send to as well as the amount of Vostok.  
-Please note that the Vostok gateway charges **0.001 Waves** for the network fee.
+Paste the Waves Enterprise address you want to send to as well as the amount of Waves Enterprise.  
+Please note that the Waves Enterprise gateway charges **0.001 Waves** for the network fee.
 
 **Before proceeding please carefully read the conditions**.
 
@@ -46,9 +46,9 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 
 ![](/_assets/vostok_transfers_04.png)
 
-## How to transfer Vostok to another Waves account
+## How to transfer Waves Enterprise to another Waves account
 
-You can send Vostok directly to another Waves account. Just use the recipient **Waves** address, click on the **Send** and fill-in the sending form.
+You can send Waves Enterprise directly to another Waves account. Just use the recipient **Waves** address, click on the **Send** and fill-in the sending form.
 
 ![](/_assets/vostok_transfers_01.png)
 

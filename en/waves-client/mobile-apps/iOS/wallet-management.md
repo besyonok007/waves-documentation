@@ -3,7 +3,7 @@
 Transfers and gateways chapter includes all details about transfer operations for each supported cryptocurrencies. So, with the mobile app, you can transfer Waves, any assets and all gateway coins. All transactions with external coins are processed by the [payment gateways](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md).
 
 * [Waves transfers (iOS)](transfers-and-gateways/waves-transfers.md)
-* [Vostok transfers (iOS)](transfers-and-gateways/vostok-transfers.md)
+* [Waves Enterprise transfers (iOS)](transfers-and-gateways/waves-enterprise-transfers.md)
 * [Asset transfers (iOS)](transfers-and-gateways/asset-transfers.md)
 * [Bitcoin transfers (iOS)](transfers-and-gateways/bitcoin-transfers.md)
 * [Ethereum transfers (iOS)](transfers-and-gateways/ethereum-transfers.md)
