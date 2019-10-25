@@ -38,7 +38,8 @@ Fill the fields in the order form:
 
 * In the **Amount** enter the amount of currency you want to buy;
 * In the **Limit** price enter the price of the currency;
-* In the **Total** check the total amount of the order.
+* In the **Total** check the total amount of the order;
+* In the **Fee** you can select the fee for the trades from the drop-down menu (Waves, BTC, ETH, TDX).
 
 **Note**: By default, the **Limit price** sets with the nearest market orders.
 
@@ -66,7 +67,8 @@ Fill the fields in the order form:
 
 * In the **Amount** enter the amount of currency you want to sell;
 * In the **Limit** price enter the price of the currency;
-* In the **Total** check the total amount of the order.
+* In the **Total** check the total amount of the order;
+* In the **Fee** you can select the fee for the trades from the drop-down menu (Waves, BTC, ETH, TDX).
 
 **Note**: By default, the **Limit price** sets with the nearest market orders.
 

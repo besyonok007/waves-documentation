@@ -33,7 +33,8 @@ Fill in the fields in the order form:
 
 * In the **Amount in** **----** enter the amount of currency you want to buy or choose **Use total balance** **50%** **10%** **5%**;
 * In the **Limit Price in** **----** enter the price of the currency or tap on the **Bid** if you want to place buy order, **Ask** if you want to buy from the sell orders or **Last** if you want to buy by market price;
-* In the **Total in** **----** check the total amount of the order.
+* In the **Total in** **----** check the total amount of the order;
+* In the **Fee** you can select the fee for the trades from the drop-down menu (Waves, BTC, ETH, TDX).
 
 **Note**: By default, the **Limit price** sets with the nearest market price.
 
@@ -61,7 +62,8 @@ Fill the fields in the order form:
 
 * In the **Amount in** **----** enter the amount of currency you want to sell or choose **Use total balance** **50%** **10%** **5%**;
 * In the **Limit Price in** **----** enter the price of the currency or tap on the **Bid** if you want to sell into buy orders, **Ask** if you want to place sell order or **Last** if you want to sell by market price;
-* In the **Total in** **----** check the total amount of the order.
+* In the **Total in** **----** check the total amount of the order;
+* In the **Fee** you can select the fee for the trades from the drop-down menu (Waves, BTC, ETH, TDX).
 
 **Note**: By default, the **Limit price** sets with the nearest market orders.
 
