@@ -16,16 +16,33 @@ A **built-in variable** is a [variable](/ride/variables.md) of the [script conte
   </tr>
   <tr>
     <td>2</td>
+    <td>
+      <ul>
+        <li>CEILING</li>
+        <li>DOWN</li>
+        <li>FLOOR</li>
+        <li>HALFDOWN</li>
+        <li>HALFEVEN</li>
+        <li>HALFUP</li>
+        <li>UP</li>
+      </ul>
+    </td>
+    <td>
+      <a href="/ride/functions/built-in-functions/math-functions.md">Rounding methods</a> used in the <a href="/ride/functions/built-in-functions/math-functions.md">log</a> and <a href="/ride/functions/built-in-functions/math-functions.md">pow</a> functions
+    </td>
+  </tr>
+  <tr>
+    <td>3</td>
     <td>height</td>
     <td><a href="/blockchain/blockchain/blockchain-height.md">Blockchain height</a> at the script execution time</td>
   </tr>
   <tr>
-    <td>3</td>
+    <td>4</td>
     <td>lastBlock</td>
     <td>Information about the last <a href="/blockchain/block.md">block</a> of the blockchain at the script execution time</td>
   </tr>
   <tr>
-    <td>4</td>
+    <td>5</td>
     <td>nil</td>
     <td>Variable that contains an empty <a href="/ride/data-types/list.md">list.</a><br>The variable is used for creating lists. For example, instead of:<br>
 <pre>
@@ -43,9 +60,9 @@ A **built-in variable** is a [variable](/ride/variables.md) of the [script conte
     </td>
   </tr>
   <tr>
-    <td>5</td>
+    <td>6</td>
     <td>
-      <ol>
+      <ul>
         <li>NOALG</li>
         <li>MD5</li>
         <li>SHA1</li>
@@ -57,31 +74,31 @@ A **built-in variable** is a [variable](/ride/variables.md) of the [script conte
         <li>SHA3256</li>
         <li>SHA3384</li>
         <li>SHA3512</li>
-      </ol>
+      </ul>
     </td>
     <td>
       Variables that are passed as the first parameter to the <a href="/ride/functions/built-in-functions/verification-functions.md">rsaVerify</a> function
     </td>
   </tr>
   <tr>
-    <td>6</td>
+    <td>7</td>
     <td>Sell</td>
     <td><a href="/blockchain/order.md">Order</a> type</td>
   </tr>
   <tr>
-    <td>7</td>
+    <td>8</td>
     <td>this</td>
     <td>Transaction sender <a href="/blockchain/account/address.md">address</a> or information about the <a href="/blockchain/token.md">token</a></td>
   </tr>
   <tr>
-    <td>8</td>
+    <td>9</td>
     <td>tx</td>
     <td><a href="/blockchain/transaction.md">Transaction</a> or <a href="/blockchain/order.md">order</a></td>
   </tr>
   <tr>
-    <td>9</td>
+    <td>10</td>
     <td>unit</td>
-    <td>Variable that contains an object of <a href="/ride/data-types/unit.md">Unit</a> type. The variable is used by the programmer to acquire an object of <code>Unit</code> type. <br><b>Example 1</b><br> the <code>deposit</code> function transfers 5 <a href="/blockchain/token/wavelet.md">WAVELETs</a> to the account, that <a href="/ride/functions/callable-function.md">called</a> this function.
+    <td>Variable that contains an object of <a href="/ride/data-types/unit.md">Unit</a> type.<br><b>Example 1</b><br> the <code>deposit</code> function transfers 5 <a href="/blockchain/token/wavelet.md">WAVELETs</a> to the account, that <a href="/ride/functions/callable-function.md">called</a> this function.
 
 <pre>
 <code class=“lang-ride”>

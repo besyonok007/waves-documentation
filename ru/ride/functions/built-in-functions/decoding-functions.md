@@ -19,9 +19,15 @@ addressFromString(string: String): Address|Unit
 
 ### Параметры
 
-#### `string`: String
+#### `string`: [String](en/ride/data-types/string.md)
 
 Строка для декодирования.
+
+### Примеры
+
+```ride
+let address = addressFromString("3NADPfTVhGvVvvRZuqQjhSU4trVqYHwnqjF")
+```
 
 ## addressFromStringValue(String): Address <a id="address-from-string-value"></a>
 
@@ -35,9 +41,15 @@ addressFromStringValue(string: String): Address
 
 ### Параметры
 
-#### `string`: String
+#### `string`: [String](en/ride/data-types/string.md)
 
 Строка для декодирования.
+
+### Примеры
+
+```ride
+let address = addressFromStringValue("3NADPfTVhGvVvvRZuqQjhSU4trVqYHwnqjF")
+```
 
 ## fromBase16String(String): ByteVector<a id="from-base-16-string"></a>
 
@@ -49,9 +61,15 @@ fromBase16String(str: String): ByteVector
 
 ### Параметры
 
-#### `str`: String
+#### `str`: [String](en/ride/data-types/string.md)
 
 Строка для декодирования.
+
+### Примеры
+
+```ride
+fromBase16String("52696465")
+```
 
 ## fromBase58String(String): ByteVector<a id="from-base-58-string"></a>
 
@@ -63,9 +81,15 @@ fromBase58String(str: String): ByteVector
 
 ### Параметры
 
-#### `str`: String
+#### `str`: [String](en/ride/data-types/string.md)
 
 Строка для декодирования.
+
+### Примеры
+
+```ride
+let bytes = fromBase58String("37BPKA")
+```
 
 ## fromBase64String(String): ByteVector<a id="from-base-64-string"></a>
 
@@ -77,6 +101,12 @@ fromBase64String(str: String): ByteVector
 
 ### Параметры
 
-#### `str`: String
+#### `str`: [String](en/ride/data-types/string.md)
 
 Строка для декодирования.
+
+### Примеры
+
+```ride
+let bytes = fromBase64String("UmlkZQ==")
+```
