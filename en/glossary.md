@@ -7,11 +7,11 @@
 An **account** is a [cryptographically connected](https://en.wikipedia.org/wiki/Public-key_cryptography) pair of [public](#public-key)
  and [private keys](#private-key) on the [blockchain](#blockchain). Accounts uniquely correlate [transactions](#transaction) and [orders](#order) with their senders.
 
-<h3>Account data storage<a id="account-data-storage"></a></h3>
+<h3>Account data storage</h3><a id="account-data-storage"></a>
 
 An **account data storage** is the store of data records in the key-value format associated with the [account](#account). Each account has single data storage. The size of the account data storage is unlimited.
 
-<h3>Account script<a id="account-script"></a></h3>
+<h3>Account script</h3><a id="account-script"></a>
 
 An **account script** is a [Ride](#ride) [script](#script) that has the following directives:
 
