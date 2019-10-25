@@ -1,6 +1,6 @@
 <h1>Словарь терминов</h1>
 
-<a href="#cA-letter">А</a> | <a href="#cB-letter">Б</a> | <a href="#cV-letter">В</a> | <a href="#cG-letter">Г</a> | <a href="#cD-letter">Д</a> | Е | Ё | Ж | <a href="#cZ-letter">З</a> | И | Й | <a href="#cK-letter">К</a> | <a href="#cL-letter">Л</a> | <a href="#cM-letter">М</a> | <a href="#cN-letter">Н</a> | <a href="#cO-letter">О</a> | <a href="#cP-letter">П</a> | Р | <a href="#cS-letter">С</a> | <a href="#cT-letter">Т</a> | У | Ф | <a href="#cKh-letter">Х</a> | Ц | Ч | <a href="#cSh-letter">Ш</a> | <a href="#cEe-letter">Э</a> 
+<a href="#cA-letter">А</a> | <a href="#cB-letter">Б</a> | <a href="#cV-letter">В</a> | <a href="#cG-letter">Г</a> | <a href="#cD-letter">Д</a> | <a href="#cZ-letter">З</a> | И | Й | <a href="#cK-letter">К</a> | <a href="#cL-letter">Л</a> | <a href="#cM-letter">М</a> | <a href="#cN-letter">Н</a> | <a href="#cO-letter">О</a> | <a href="#cP-letter">П</a> | Р | <a href="#cS-letter">С</a> | <a href="#cT-letter">Т</a> | У | Ф | <a href="#cKh-letter">Х</a> | Ц | Ч | <a href="#cSh-letter">Ш</a> | <a href="#cEe-letter">Э</a> 
 
 A | B | C | <a href="#D-letter">D</a> | <a href="#E-letter">E</a> | <a href="#F-letter">F</a> | G | H | I | J | <a href="#K-letter">K</a> | <a href="#L-letter">L</a> | M | <a href="#N-letter">N</a> | O | <a href="#P-letter">P</a> | Q | <a href="#R-letter">R</a> | S | <a href="#T-letter">T</a> | <a href="#U-letter">U</a> | V | <a href="#W-letter">W</a> | X | Y | Z
 
