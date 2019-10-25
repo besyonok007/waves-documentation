@@ -6,7 +6,7 @@
 
 <h3>Account<a id="account"></a></h3>
 
-An <strong>account</strong> is <a style="text-decoration:none;color:#333;" href="#">a</a> <a href="https://en.wikipedia.org/wiki/Public-key_cryptography">cryptographically connected</a> pair of <a href="#public-key">public</a> and <a href="#private-key">private keys</a> on the <a href="#blockchain">blockchain</a>. Accounts uniquely correlate <a href="#transaction">transactions</a> and <a href="#order">orders</a> with their senders.
+An <strong>account</strong> is <a class="hidden-link" href="#">a</a> <a href="https://en.wikipedia.org/wiki/Public-key_cryptography">cryptographically connected</a> pair of <a href="#public-key">public</a> and <a href="#private-key">private keys</a> on the <a href="#blockchain">blockchain</a>. Accounts uniquely correlate <a href="#transaction">transactions</a> and <a href="#order">orders</a> with their senders.
 
 <h3>Account data storage<a id="account-data-storage"></a></h3>
 
@@ -14,7 +14,7 @@ An **account data storage** is the store of data records in the key-value format
 
 <h3>Account script<a id="account-script"></a></h3>
 
-An **account script** is a Ride [script](#script) that has the following directives:
+An **account script** is <a class="hidden-link" href="#">a</a> Ride [script](#script) that has the following directives:
 
 ```ride
 {-# CONTENT_TYPE EXPRESSION #-}
@@ -130,7 +130,7 @@ A **test network faucet** (or faucet) is a [Waves Explorer](#explorer) tool that
 
 <h3>Genesis block<a id="genesis-block"></a></h3>
 
-The **genesis block** (or genesis) is the very first [block](#block) of the [blockchain](#blockchain). The genesis block contains one or several [genesis transactions](/blockchain/transaction-types/genesis-transaction.md).
+The **genesis block** (or genesis) is the very first [block](#block) of the [blockchain](#blockchain). The genesis block contains one or several [genesis transactions](/blockchain/transaction-type/genesis-transaction.md).
 
 <h3>Genesis transaction<a id="genesis-transaction"></a></h3>
 
@@ -182,7 +182,7 @@ A **miner** is the owner of the [mining node](#mining-node).
 
 <h3>Mining account<a id="mining-account"></a></h3>
 
-A **mining account** is an [account](#account) that the [mining node](#mining-node) uses to [sign](#block-signature) the generated [blocks](#blocks).
+A **mining account** is an [account](#account) that the [mining node](#mining-node) uses to [sign](#block-signature) the generated [blocks](#block).
 
 <h3>Mining node<a id="mining-node"></a></h3>
 
