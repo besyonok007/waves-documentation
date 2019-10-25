@@ -17,11 +17,11 @@ Waves — безопасная платформа. Открытость кода
 **Официальные ресурсы Waves**
 
 * [**Официальный вэб-сайт**](https://wavesplatform.com)
-* [**Windows приложение**](https://wavesplatform.com/WavesClient-win.zip)
-* [**Mac приложение**](https://wavesplatform.com/WavesClient-mac.dmg)
-* [**Linux приложение**](https://wavesplatform.com/WavesClient-linux.deb)
-* [**Онлайн приложение**](https://dex.wavesplatform.com)
-* [**iOS приложение**](https://itunes.apple.com/us/app/waves-wallet/id1233158971)
+* [**Windows приложение**](https://wavesplatform.com/files/WavesDEX-win.zip)
+* [**Mac OS приложение**](https://wavesplatform.com/files/WavesDEX-mac.dmg)
+* [**Linux приложение**](https://wavesplatform.com/files/WavesDEX-linux.deb)
+* [**Online приложение**](https://dex.wavesplatform.com)
+* [**iOS приложение**](https://apps.apple.com/ru/app/waves-wallet/id1233158971)
 * [**Android приложение**](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet)
 * [**Приложение на GitHub**](https://github.com/wavesplatform/WavesGUI)
 

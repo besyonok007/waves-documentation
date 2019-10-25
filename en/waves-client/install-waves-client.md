@@ -7,12 +7,12 @@ The Waves client could also be called a multi-currency wallet. It does not only 
 
 **The Waves client is available as:**
 
-* [**Windows Client**](https://wavesplatform.com/files/WavesClient-win.zip)
-* [**Mac Client**](https://wavesplatform.com/files/WavesClient-mac.dmg)
-* [**Linux Client**](https://wavesplatform.com/files/WavesClient-linux.deb)
-* [**Online Client**](https://dex.wavesplatform.com)
-* [**iOS Client**](https://itunes.apple.com/us/app/waves-wallet/id1233158971)
-* [**Android Client**](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet)
+* [**Windows app**](https://wavesplatform.com/files/WavesDEX-win.zip)
+* [**Mac OS app**](https://wavesplatform.com/files/WavesDEX-mac.dmg)
+* [**Linux app**](https://wavesplatform.com/files/WavesDEX-linux.deb)
+* [**Online app**](https://dex.wavesplatform.com)
+* [**iOS app**](https://apps.apple.com/us/app/waves-wallet/id1233158971)
+* [**Android app**](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet)
 
 After that, you need to follow the step by step guide for [creating your account](account-management/creating-an-account.md).
 

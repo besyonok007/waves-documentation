@@ -1,7 +1,7 @@
 ## How to Create an Account
 
 Download and install the latest version from the App Store.  
-Please use only the [official link](https://itunes.apple.com/us/app/waves-wallet/id1233158971).
+Please use only the [official link](https://apps.apple.com/us/app/waves-wallet/id1233158971).
 
 Open the installed app.
 Choose language and click on the **Continue**

@@ -2,7 +2,7 @@
 
 Think of the Waves account as a multi-wallet. It, obviously, supports Waves and also any other token existing on the Waves blockchain. Whenever you want to receive Waves based asset, just hand your personal Waves address to the sender and he is able to execute the transaction.
 
-You can use either [**Online Client**](https://dex.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) or [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb).
+You can use either [**Online app**](https://dex.wavesplatform.com), or standalone version for [**Windows app**](https://wavesplatform.com/files/WavesDEX-win.zip), [**Mac OS app**](https://wavesplatform.com/files/WavesDEX-mac.dmg) or [**Linux app**](https://wavesplatform.com/files/WavesDEX-linux.deb). All versions support automatic update.
 
 Open your Waves wallet. At the top right corner click on the **Account avatar**.
 

@@ -6,12 +6,12 @@ Waves приложение является также мультивалютн�
 
 **Waves приложения доступны в виде:**
 
-* [**Windows приложения**](https://wavesplatform.com/files/WavesClient-win.zip)
-* [**Mac приложения**](https://wavesplatform.com/files/WavesClient-mac.dmg)
-* [**Linux приложения**](https://wavesplatform.com/files/WavesClient-linux.deb)
-* [**Онлайн приложения**](https://dex.wavesplatform.com)
-* [**iOS приложения**](https://itunes.apple.com/us/app/waves-wallet/id1233158971)
-* [**Android приложения**](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet)
+* [**Windows приложение**](https://wavesplatform.com/files/WavesDEX-win.zip)
+* [**Mac OS приложение**](https://wavesplatform.com/files/WavesDEX-mac.dmg)
+* [**Linux приложение**](https://wavesplatform.com/files/WavesDEX-linux.deb)
+* [**Online приложение**](https://dex.wavesplatform.com)
+* [**iOS приложение**](https://apps.apple.com/ru/app/waves-wallet/id1233158971)
+* [**Android приложение**](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet)
 
 После запуска приложения вам необходимо следовать пошаговому руководству для [создания аккаунта](account-management/creating-an-account.md). Детальные инструкции о мобильных приложениях для iOS и Android устройств доступны в разделе [_**Мобильные приложения**_](/waves-client/mobile-apps.md).
 

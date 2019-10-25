@@ -1,7 +1,6 @@
 # **How to Create an Account**
 
-You can use either online version of the client, or standalone version for Mac, PC or Linux. All versions support automatic update.
-Also downloads are available from the official site - https://wavesplatform.com/product
+You can use either [**Online app**](https://dex.wavesplatform.com), or standalone version for [**Windows app**](https://wavesplatform.com/files/WavesDEX-win.zip), [**Mac OS app**](https://wavesplatform.com/files/WavesDEX-mac.dmg) or [**Linux app**](https://wavesplatform.com/files/WavesDEX-linux.deb). All versions support automatic update.
 
 Choose and open up your Waves wallet.
 

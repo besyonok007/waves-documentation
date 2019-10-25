@@ -1,6 +1,6 @@
 # How to Enable Dark Mode in Waves wallet
 
-You can use either [**Online Client**](https://dex.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) or [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb).
+You can use either [**Online app**](https://dex.wavesplatform.com), or standalone version for [**Windows app**](https://wavesplatform.com/files/WavesDEX-win.zip), [**Mac OS app**](https://wavesplatform.com/files/WavesDEX-mac.dmg) or [**Linux app**](https://wavesplatform.com/files/WavesDEX-linux.deb). All versions support automatic update.
 
 Choose and open your Waves wallet and click on the **Account avatar** at the top right corner. Then click on the **Settings**.
 

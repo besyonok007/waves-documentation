@@ -19,12 +19,12 @@ One of the most common forms of scamming is phishing, which is when scammers cre
 **Official Waves resources**
 
 * [**Official website**](https://wavesplatform.com)
-* [**Windows Client**](https://wavesplatform.com/WavesClient-win.zip)
-* [**Mac Client**](https://wavesplatform.com/WavesClient-mac.dmg)
-* [**Linux Client**](https://wavesplatform.com/WavesClient-linux.deb)
-* [**Online Client**](https://dex.wavesplatform.com)
-* [**iOS Client**](https://itunes.apple.com/us/app/waves-wallet/id1233158971)
-* [**Android Client**](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet)
+* [**Windows app**](https://wavesplatform.com/files/WavesDEX-win.zip)
+* [**Mac OS app**](https://wavesplatform.com/files/WavesDEX-mac.dmg)
+* [**Linux app**](https://wavesplatform.com/files/WavesDEX-linux.deb)
+* [**Online app**](https://dex.wavesplatform.com)
+* [**iOS app**](https://apps.apple.com/us/app/waves-wallet/id1233158971)
+* [**Android app**](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet)
 * [**Client on GitHub**](https://github.com/wavesplatform/WavesGUI)
 
 Cloned company web pages are the main ways of distributing phishing links. Subscribe to our official communities on social networks, follow our posts, and do not fall victim to scammers:

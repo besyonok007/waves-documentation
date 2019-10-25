@@ -7,7 +7,7 @@ Set Alias for an account without a script would cost **0.001 WAVES**, whereas fo
 
 **Before you start, please keep in mind. We do not recommend you submit JSON unless you are an experienced user. Errors may lead to loss of funds**.
 
-You can use either [**Online Client**](https://dex.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) or [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb).
+You can use either [**Online app**](https://dex.wavesplatform.com), or standalone version for [**Windows app**](https://wavesplatform.com/files/WavesDEX-win.zip), [**Mac OS app**](https://wavesplatform.com/files/WavesDEX-mac.dmg) or [**Linux app**](https://wavesplatform.com/files/WavesDEX-linux.deb). All versions support automatic update.
 
 So, to start using all available features of the application, first you need to activate the advanced features.
 
