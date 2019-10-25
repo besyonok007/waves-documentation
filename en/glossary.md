@@ -6,7 +6,7 @@
 
 <h3>Account<a id="account"></a></h3>
 
-An <strong>account</strong> is a <a href="https://en.wikipedia.org/wiki/Public-key_cryptography">cryptographically connected</a> pair of <a href="#public-key">public</a> and <a href="#private-key">private keys</a> on the <a href="#blockchain">blockchain</a>. Accounts uniquely correlate <a href="#transaction">transactions</a> and <a href="#order">orders</a> with their senders.
+An <strong>account</strong> is <a style="text-decoration:none;color:#333;" href="#">a</a> <a href="https://en.wikipedia.org/wiki/Public-key_cryptography">cryptographically connected</a> pair of <a href="#public-key">public</a> and <a href="#private-key">private keys</a> on the <a href="#blockchain">blockchain</a>. Accounts uniquely correlate <a href="#transaction">transactions</a> and <a href="#order">orders</a> with their senders.
 
 <h3>Account data storage<a id="account-data-storage"></a></h3>
 
