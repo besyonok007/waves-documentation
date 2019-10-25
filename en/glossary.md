@@ -15,7 +15,7 @@ An **account data storage** is the store of data records in the key-value format
 
 <h3>Account script<a id="account-script"></a></h3>
 
-An **account script** is <a class="hidden-link" href="#">a</a> Ride [script](#script) that has the following directives:
+An **account script** is a [Ride](#ride) [script](#script) that has the following directives:
 
 ```ride
 {-# CONTENT_TYPE EXPRESSION #-}
