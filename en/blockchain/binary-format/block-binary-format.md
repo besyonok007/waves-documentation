@@ -7,7 +7,7 @@
 | # | Field name | Field type | Field size in bytes | Comments |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | Version of the binary format of the block | Byte | 1 | The value must be 3 |
-| 2 | [Block timestamp](/blockchain/block/block-timestamp.md) | Long | 1 | |
+| 2 | [Block timestamp](/blockchain/block/block-timestamp.md) | Long | 8 | |
 | 3 | [Block signature](/blockchain/block/block-signature.md) of the parent block | Array of bytes | 64 | |
 | 4 | [Base target](/blockchain/block/block-generation/base-target.md) | Long | 8 | |
 | 5 | Generation signature | Array of bytes | 32 | |
