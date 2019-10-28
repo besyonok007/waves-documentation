@@ -75,7 +75,7 @@ A **blockchain network** is a computer network that consists of [nodes](#node).
 
 <h3>Block signature</h3><a id="block-signature"></a>
 
-A **block signature** is a [hash](#hash) that the [mining node](#mining-node) receives when it signs the [generated block](#block) with the [private key](#private-key) of the [mining account](#mining-account).
+A **block signature** is a [hash](#hash) that the [mining node](#mining-node) receives when it signs the generated [block](#block) with the [private key](#private-key) of the [mining account](#mining-account).
 
 <h2>C</h2><a id="C-letter"></a>
 
