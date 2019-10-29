@@ -2,13 +2,15 @@
 
 | # | Name | Description | Complexity |
 |:---| :--- | :--- | :--- |
-| 1 | [fraction(Int, Int, Int): Int](#fraction) | Converts arbitrarily large signed integer to integer | 1 |
-| 2 |[log(Int, Int, Int, Int, Int, Union): Int](#log)| Calculates logarithm of the number | 100 |
-| 3 |[pow(Int, Int, Int, Int, Int, Union): Int](#pow) | Raises the number to a power| 100 |
+| 1 | [fraction(Int, Int, Int): Int](#fraction) | Multiplies [integers](/ride/data-types/int.md) `a`, `b` and divides the result by the integer `c` to avoid the integer overflow | 1 |
+| 2 | [log(Int, Int, Int, Int, Int, Union): Int](#log)|  Calculates logarithm of the number `a` with the base `b` | 100 |
+| 3 | [pow(Int, Int, Int, Int, Int, Union): Int](#pow) | Raises the number `a` to the power `b`| 100 |
 
 ## fraction(Int, Int, Int): Int<a id="fraction"></a>
 
-Converts arbitrarily large signed integer to integer.
+Multiplies [integers](/ride/data-types/int.md) `a`, `b` and divides the result by the integer `c` to avoid the integer overflow.
+
+Fraction `(a × b)/c` should not exceed the maximum value of the integer type 9 223 372 036 854 755 807.
 
 ```ride
 fraction(value: Int, numerator: Int, denominator: Int): Int
@@ -16,17 +18,17 @@ fraction(value: Int, numerator: Int, denominator: Int): Int
 
 ### Parameters
 
-#### `value`: Int
+#### `value`: [Int](/ride/data-types/int.md)
 
-Arbitrarily large signed integer.
+Integer `a`.
 
-#### `numerator`: Int
+#### `numerator`: [Int](/ride/data-types/int.md)
 
-Numerator of the fraction.
+Integer `b`.
 
-#### `denominator`: Int
+#### `denominator`: [Int](/ride/data-types/int.md)
 
-Denominator of the fraction.
+Integer `c`.
 
 ### Conversion formula
 
@@ -38,7 +40,24 @@ fraction = value × numerator / denominator
 
 ### Examples
 
+Lets assume that:
+
+a = 100 000 000 000,
+
+b =50 000 000 000 000,
+
+c = 250 0000.
+
+The following formula, with [operators](/ride/operators.md) `*` and `/`, will throw integer overflow exception:
+
 ```ride
+let result = a * b # integer overflow, because a * b exceeds max integer type value 9 223 372 036 854 755 807
+```
+
+The fraction function with no integer overflow:
+
+```ride
+let result = fraction(a, b, c) # result = 2000 000 000 000 000 000
 fraction(2,2,3) # Returns 1
 fraction(3,3,3) # Returns 3
 fraction(3,2,3) # Returns 2
@@ -46,85 +65,47 @@ fraction(3,2,3) # Returns 2
 
 ## log(Int, Int, Int, Int, Int, Union): Int<a id="log"></a>
 
-Calculates logarithm of the number.
+Calculates logarithm of the number `a` with the base `b`.
+
+
 
 ``` ride
 log(value: Int, ep: Int, base: Int, bp: Int, rp: Int, round: Union): Int
 ```
 
-### Parameters
+In Ride, there is no [data type](/ride/data-types.md) with the floating point. That is why, for example, when you need to calculate `log<sub>2,7</sub>(16,25)` then the number `a` = 1625, and the logarithm base `b` = 27.
 
-#### `value`: Int
-
-Given number.
-
-#### `ep`: Int
-
-Number of decimals of the given number.
-
-#### `base`: Int
-
-Base of the logarithm.
-
-#### `bp`: Int
-
-Number of decimals of the base.
-
-#### `rp`: Int
-
-Number of decimals of the resulting value.
-
-#### `round`: Union
-
-One of the [rounding function](#rounding-functions).
-
-The `HalfUp()` function may be used as the default value.
-
-### Examples
-
-* log<sub>2</sub>(0) = -Infinity
-* log<sub>2</sub>(2) = 0
-* log<sub>2</sub>(10.555) = 3.4
-* log<sub>2</sub>(16.25) = 4.02
-
-```ride
-log(0, 0, 2, 0, 0, HalfUp()) # -Infinity
-log(1, 0, 2, 0, 0, HalfDown()) # Returns 0
-log(10555, 3, 2, 0, 3, HalfEven()) # Returns 3400
-log(1625, 2, 2, 0, 2, Up()) # Returns 403
-```
-
-## pow(Int, Int, Int, Int, Int, Union): Int<a id="pow"></a>
-
-Raises the number to a power.
-
-``` ride
-pow(base: Int, bp: Int, exponent: Int, ep: Int, rp: Int, round: Union): Int
-```
+If the `log` function returns, for example, 64391, and the parameter of function `rp` = 4, then the result is  — 6,4391; in the number 64391 the last 4 digits (`rp` = 4) — fractional part. The `rp` parameter specifies the calculation accuracy of the result of the function, — number of decimals in the result.
 
 ### Parameters
 
-#### `base`: Int
+#### `value`: [Int](/ride/data-types/int.md)
 
-Given number.
+Given number without decimals.
 
-#### `bp`: Int
+For example, if `a` = 2,715, then `value` = 2715; if `a` = 230,9, then `value` = 2309; if `a` = 5, then value = `5`; if `a` = 5,00, then `value` = 500.
 
-Number of decimals of the given number.
+#### `ep`: [Int](/ride/data-types/int.md)
 
-#### `exponent`: Int
+Number of decimals of the given number `a`.
 
-Power.
+For example, if `a` = 2,715, then `ep` = 3; if `a` = 230,9, then `ep` = 1; if `a` = 5, then `ep` = 0; if `a` = 5,00, then `ep` = 2.
 
-#### `ep`: Int
+#### `base`: [Int](/ride/data-types/int.md)
 
-Number of decimals of power.
+Logarithm base without the decimals.
 
-#### `rp`: Int
+#### `bp`: [Int](/ride/data-types/int.md)
 
-Number of decimals of the resulting value.
+Number of decimals of the logarithm base.
 
-#### `round`: Union
+#### `rp`: [Int](/ride/data-types/int.md)
+
+Number of decimals in the resulting value. Specifies the accuracy of the calculated result.
+
+The value of the variable can be 0 to 8 integer inclusive.
+
+#### `round`: UP|DOWN|CEILING|FLOOR|HALFUP|HALFDOWN|HALFEVEN
 
 One of the [rounding functions](#rounding-functions).
 
@@ -132,40 +113,91 @@ The `HalfUp()` function may be used as the default value.
 
 ### Examples
 
-* 1<sup>0</sup> = 1
-* 2<sup>4</sup> = 16
-* 2.5<sup>2.5</sup> = 9.88
-* 3.33<sup>3</sup> = 36.926
+The value of `log<sub>2,7</sub>(16,25)` equals to 2,807035421: 
 
 ```ride
-pow(1, 0, 0, 0, 0, Up()) # Returns 1
-pow(2, 0, 4, 0, 0, HalfUp()) # Returns 16
-pow(25, 1, 25, 1, 2, Floor()) # Returns 988
-pow(333, 2, 3, 0, 3, Down()) # Returns 36926
+log(1625, 2, 27, 1, 2, HALFUP) # function returns 281, so, the result is: 2,81
+log(1625, 2, 27, 1, 5, HALFUP) # function returns 280703542, so, the result is: 2,80704
 ```
 
-## Rounding functions
+## pow(Int, Int, Int, Int, Int, Union): Int<a id="pow"></a>
 
-The rounding functions are _only_ used as the parameters of [log](#log) and [pow](#pow) functions and they are not used by themselves.
+Raises the number `a` to the power `b`.
 
-|Name | Description |
-| :--- | :--- |
-| Ceiling(): Int | Rounding towards positive infinity |
-| Down(): Int | Rounding towards zero |
-| Floor(): Int | Rounding towards negative infinity |
-| HalfDown(): Int | Rounding down towards the nearest integer |
-| HalfEven(): Int | Rounding towards the nearest even integer |
-| HalfUp(): Int   | Rounding up towards the nearest integer   |
-| Up(): Int | Rounding away from zero |
+``` ride
+pow(base: Int, bp: Int, exponent: Int, ep: Int, rp: Int, round: Union): Int
+```
+
+there is no [data type](/ride/data-types.md) with the floating point. That is why, for example, when you need to calculate, 16,25<sup>2,7</sup>, then the number `a` = 1625, and the logarithm base `b` = 27.
+
+ If the `pow` function returns, for example, 64391, and the parameter of function `rp` = 4, then the result is  — 6,4391; in the number 64391 the last 4 digits (`rp` = 4) — fractional part. The `rp` parameter specifies the calculation accuracy of the result of the function, — number of decimals in the result.
+
+### Parameters
+
+#### `base`: [Int](/ride/data-types/int.md)
+
+Given number without decimals.
+
+#### `bp`: [Int](/ride/data-types/int.md)
+
+Number of decimals of the given number `a`.
+
+#### `exponent`: [Int](/ride/data-types/int.md)
+
+Power without decimals.
+
+#### `ep`: [Int](/ride/data-types/int.md)
+
+Number of decimals of the power.
+
+#### `rp`: [Int](/ride/data-types/int.md)
+
+Number of decimals of the resulting value. Specifies the accuracy of the calculated result.
+
+The value of the variable can be 0 to 8 integer inclusive.
+
+#### `round`: UP|DOWN|CEILING|FLOOR|HALFUP|HALFDOWN|HALFEVEN
+
+One of the [rounding functions](#rounding-functions).
+
+The `HalfUp()` function may be used as the default value.
 
 ### Examples
 
-| | -1.6 | -1.5 | -1.4 | -1.0 | 1.0 | 1.4 | 1.5 | 1.6 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Ceiling | -1 | -1 | -1 | -1 | 1 | 2 | 2 | 2 |
-| Down | -1 | -1 | -1 | -1 | 1 | 1 | 1 | 1 |
-| Floor | -2 | -2 | -2 | -1 | 1 | 1 | 1 | 1 |
-| HalfDown | -2 | -1 | -1 | -1 | 1 | 1 | 1 | 2 |
-| HalfEven | -2 | -2 | -1 | -1 | 1 | 1 | 2 | 2 |
-| HalfUp | -2 | -2 | -1 | -1 | 1 | 1 | 2 | 2 |
-| Up | -2 | -2 | -2 | -1 | 1 | 2 | 2 | 2 |
+The value of 16,25<sup>2,7</sup> equals to 1859,1057168497582: 
+
+```ride
+pow(1625, 2, 27, 1, 2, HALFUP) # function returns 185911, so, the result is: 1859,11
+pow(1625, 2, 27, 1, 5, HALFUP) # function returns 185910572, so, the result is: 1859,10572
+```
+
+## Built-in rounding variables
+
+Below is the list of built-in rounding variables. Every variable corresponds to the [rounding method](https://en.wikipedia.org/wiki/Rounding).
+
+The rounding variables are _only_ used as the parameters of functions [log](#log) and [pow](#pow).
+
+|Name | Description |
+| :--- | :--- |
+| CEILING | Rounds towards positive infinity |
+| DOWN | Rounds towards zero |
+| FLOOR | Rounds towards negative infinity |
+| HALFDOWN | Rounds towards the nearest integer; if the integers are equidistant - rounds towards zero |
+| HALFEVEN | Rounds towards the nearest integer; if the integers are equidistant - rounds towards the nearest even integer |
+| HALFUP   | Rounds towards the nearest integer; if the integers are equidistant - rounds away from zero   |
+| UP | Rounding away from zero |
+
+### Examples
+
+|Input number/Rounding method | UP | DOWN | CEILING | FLOOR | HALFUP | HALFDOWN | HALFEVEN |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 5,5 | 6 | 5 | 6 | 5 | 6 | 5 | 6 |
+| 2,5 | 3 | 2 | 3 | 2 | 3 | 2 | 2 |
+| 1,6 | 2 | 1 | 2 | 1 | 2 | 2 | 2 |
+| 1,1 | 2 | 1 | 2 | 1 | 1 | 1 | 1 |
+| 1,0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| -1,0 | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+| -1,1 | -2 | -1 | -1 | -2 | -1 | -1 | -1 |
+| -1,6 | -2 | -1 | -1 | -2 | -2 | -2 | -2 |
+| -2,5 | -3 | -2 | -2 | -3 | -3 | -2 | -2 |
+| -5,5 | -6 | -5 | -5 | -6 | -6 | -5 | -6 |
