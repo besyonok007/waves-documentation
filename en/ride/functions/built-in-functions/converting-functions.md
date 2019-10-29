@@ -2,7 +2,7 @@
 
 | # | Name | Description | Complexity |
 |:--- | :--- | :--- | :--- |
-| 1 | [addressFromPublicKey(ByteVector): Address](#address-from-public-key)| Converts account public key to [address](/blockchain/account/address.md) | 82 |
+| 1 | [addressFromPublicKey(ByteVector): Address](#address-from-public-key)| Gets the corresponding [address](/blockchain/account/address.md) of the account public key | 82 |
 | 2 | [addressFromRecipient(Address&#124;Alias): Address](#address-from-recipient) | Gets the corresponding [address](/blockchain/account/address.md) of the [alias](/blockchain/account/alias.md) | 100 |
 | 3 | [parseInt(String): Int&#124;Unit](#parse-int) | Converts the string representation of a number to its integer equivalent | 20 |
 | 4 | [parseIntValue(String): Int](#parse-int-value) | Converts the string representation of a number to its integer equivalent.<br>Raises an exception if the string cannot be parsed | 20 |
@@ -19,7 +19,7 @@
 
 ## addressFromPublicKey(ByteVector): Address<a id="address-from-public-key"></a>
 
-Converts account public key to [address](/blockchain/account/address.md).
+Gets the corresponding [address](/blockchain/account/address.md) of the account public key.
 
 ```
 addressFromPublicKey(publicKey: ByteVector): Address
@@ -27,9 +27,15 @@ addressFromPublicKey(publicKey: ByteVector): Address
 
 ### Parameters
 
-#### `publicKey`: ByteVector
+#### `publicKey`: [ByteVector](/ride/data-types/byte-vector.md)
 
-The public key to convert.
+Public key.
+
+### Examples
+
+```ride
+let address = addressFromPublicKey(base58'J1t6NBs5Hd588Dn7mAPytqkhgeBshzv3zecScfFJWE2D')
+```
 
 ## addressFromRecipient(Address|Alias): Address<a id="address-from-recipient"></a>
 
@@ -41,9 +47,16 @@ addressFromRecipient(AddressOrAlias: Address|Alias): Address
 
 ### Parameters
 
-#### AddressOrAlias: Address|Alias
+#### AddressOrAlias: [Address](/ride/structures/common-structures/address.md)&#124;[Alias](/ride/structures/common-structures/alias.md)
 
 Address or alias, usually tx.recipient.
+
+### Examples
+
+```ride
+let address =Address(base58'3NADPfTVhGvVvvRZuqQjhSU4trVqYHwnqjF')
+addressFromRecipient(address)
+```
 
 
 ### parseInt(String): Int|Unit<a id="parse-int"></a>
@@ -56,9 +69,18 @@ parseInt(str: String): Int|Unit
 
 ### Parameters
 
-#### `str`: String
+#### `str`: [String](/ride/data-types/string.md)
 
-The string to parse.
+String to parse.
+
+### Examples
+
+```ride
+parseInt("10") # Returns 10
+parseInt("010") # Returns 10
+parseInt("Ride") # Returns Unit
+parseInt("10.30") # Returns Unit
+```
 
 ### parseIntValue(String): Int<a id="parse-int-value"></a>
 
@@ -72,9 +94,19 @@ parseIntValue(str: String): Int
 
 ### Parameters
 
-#### `str`: String
+#### `str`: [String](/ride/data-types/string.md)
 
-The string to parse.
+String to parse.
+
+### Examples
+
+```ride
+parseIntValue("10") # Returns 10
+parseIntValue("010") # Returns 10
+parseIntValue("Ride") # Error while parsing string to integer
+parseIntValue("10.30") # Error while parsing string to integer
+parseIntValue("20 WAVES") # Error while parsing string to integer
+```
 
 ## toBytes(Boolean): ByteVector<a id="tobytes-bool"></a>
 
@@ -86,9 +118,16 @@ toBytes(b: Boolean): ByteVector
 
 ### Parameters
 
-#### `b`: Boolean
+#### `b`: [Boolean](/ride/data-types/boolean.md)
 
-The boolean to convert.
+Boolean to convert.
+
+### Examples
+
+```ride
+toBytes(true) # Returns 2
+toBytes(false) # Returns 1
+```
 
 ## toBytes(Int): ByteVector<a id="tobytes-int"></a>
 
@@ -100,9 +139,15 @@ toBytes(n: Int): ByteVector
 
 ### Parameters
 
-#### `n`: Int
+#### `n`: [Int](/ride/data-types/int.md)
 
-The integer to convert.
+Integer to convert.
+
+### Examples
+
+```ride
+toBytes(10) # Returns 1111111B
+```
 
 ## toBytes(String): ByteVector<a id="tobytes-string"></a>
 
@@ -114,9 +159,15 @@ toBytes(s: String): ByteVector
 
 ### Parameters
 
-#### `s`: String
+#### `s`: [String](/ride/data-types/string.md)
 
-The string to convert.
+String to convert.
+
+### Examples
+
+```ride
+toBytes("Ride") # Returns 37BPKA
+```
 
 ## toInt(ByteVector): Int<a id="toint-bytes"></a>
 
@@ -128,9 +179,15 @@ toInt(bin: ByteVector) : Int
 
 ### Parameters
 
-#### `bin`: ByteVector
+#### `bin`: [ByteVector](/ride/data-types/byte-vector.md)
 
-The array of bytes to convert.
+Array of bytes to convert.
+
+### Examples
+
+```ride
+toInt(bytes) # Returns 10
+```
 
 ### toInt(ByteVector, Int): Int<a id="toint-bytes-int"></a>
 
@@ -142,13 +199,21 @@ toInt(bin: ByteVector, offset: Int): Int
 
 ### Parameters
 
-#### `bin`: ByteVector
+#### `bin`: [ByteVector](/ride/data-types/byte-vector.md)
 
-The array of bytes to convert.
+Array of bytes to convert.
 
-#### `offset`: Int
+#### `offset`: [Int](/ride/data-types/int.md)
 
-The index to start from.
+Index to start from.
+
+### Examples
+
+```ride
+let bytes = toBytes("Ride on Waves")
+toInt(bytes, 2) # Returns 7234224039401641825
+toInt(bytes, 6) # Index out of bounds
+```
 
 ## toString(Address): String<a id="to-string-address"></a>
 
@@ -160,9 +225,16 @@ toString(Address: Address): String
 
 ### Parameters
 
-#### `Address`: Address
+#### `Address`: [Address](/ride/structures/common-structures/address.md)
 
-The address to convert.
+Address to convert.
+
+### Examples
+
+```ride
+let address =Address(base58'3NADPfTVhGvVvvRZuqQjhSU4trVqYHwnqjF')
+toString(address) # Returns "3NADPfTVhGvVvvRZuqQjhSU4trVqYHwnqjF"
+```
 
 ### toString(Boolean): String<a id="tostring-bool"></a>
 
@@ -174,9 +246,16 @@ toString(b: Boolean): String
 
 ### Parameters
 
-#### `b`: Boolean
+#### `b`: [Boolean](/ride/data-types/boolean.md)
 
-The boolean to convert.
+Boolean to convert.
+
+### Examples
+
+```ride
+toString(true) # Returns "true"
+toString(false) # Returns "false"
+```
 
 ### toString(Int): String<a id="tostring-int"></a>
 
@@ -188,9 +267,16 @@ toString(n: Int): String
 
 ### Parameters
 
-#### `n`: Int
+#### `n`: [Int](/ride/data-types/int.md)
 
-The integer to convert.
+Integer to convert.
+
+### Examples
+
+```ride
+toString(10) # Returns "10"
+```
+
 
 ### toUtf8String(ByteVector): String<a id="to-utf8-string"></a>
 
@@ -202,6 +288,13 @@ toUtf8String(u: ByteVector): String
 
 ### Parameters
 
-#### `u`: ByteVector
+#### `u`: [ByteVector](/ride/data-types/byte-vector.md)
 
-The array of bytes to convert.
+Array of bytes to convert.
+
+### Examples
+
+```ride
+let bytes = toBytes("Ride on Waves")
+toUtf8String(bytes) # Returns "Ride on Waves"
+```

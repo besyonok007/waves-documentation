@@ -26,15 +26,14 @@ addressFromPublicKey(publicKey: ByteVector): Address
 
 ### Параметры
 
-#### `publicKey`: ByteVector
+#### `publicKey`: [ByteVector](/ride/data-types/byte-vector.md)
 
 Открытый ключ для конвертации.
 
 ### Примеры
 
 ``` ride
-let publicKey = base58'J1t6NBs5Hd588Dn7mAPytqkhgeBshzv3zecScfFJWE2D'
-let add = addressFromPublicKey(publicKey)# The result will be the address for the defined public key which is '3NADPfTVhGvVvvRZuqQjhSU4trVqYHwnqjF'
+let address = addressFromPublicKey(base58'J1t6NBs5Hd588Dn7mAPytqkhgeBshzv3zecScfFJWE2D')
 ```
 
 ## addressFromRecipient(Address&#124;Alias): Address<a id="address-from-recipient"></a>
@@ -47,9 +46,16 @@ addressFromRecipient(AddressOrAlias: Address|Alias): Address
 
 ### Параметры
 
-#### `AddressOrAlias`: Address&#124;Alias
+#### `AddressOrAlias`: [Address](/ride/structures/common-structures/address.md)&#124;[Alias](/ride/structures/common-structures/alias.md)
 
 Адрес или псевдоним, обычно получателя транзакции.
+
+### Примеры
+
+``` ride
+let address =Address(base58'3NADPfTVhGvVvvRZuqQjhSU4trVqYHwnqjF')
+addressFromRecipient(address)
+```
 
 ## parseInt(String): Int&#124;Unit<a id="parse-int"></a>
 
@@ -61,15 +67,17 @@ parseInt(str: String): Int|Unit
 
 ### Параметры
 
-#### `str`: String
+#### `str`: [String](/ride/data-types/string.md)
 
 Строка для конвертации.
 
 ### Примеры
 
 ``` ride
-let str = "Waves"
-let result = parseInt(str)
+parseInt("10") # Возвращает 10
+parseInt("010") # Возвращает 10
+parseInt("Ride") # Возвращает Unit
+parseInt("10.30") # Возвращает Unit
 ```
 
 ## parseIntValue(String): Int<a id="parse-int-value"></a>
@@ -84,15 +92,18 @@ parseIntValue(str: String): Int
 
 ### Параметры
 
-#### `str`: String
+#### `str`: [String](/ride/data-types/string.md)
 
 Строка для конвертации.
 
 ### Примеры
 
 ``` ride
-let str = "Waves"
-let result = parseIntValue(str)
+parseIntValue("10") # Возвращает 10
+parseIntValue("010") # Возвращает 10
+parseIntValue("Ride") # Ошибка при разборе строки на целое число
+parseIntValue("10.30") # Ошибка при разборе строки на целое число
+parseIntValue("20 WAVES") # Ошибка при разборе строки на целое число
 ```
 
 ## toBytes(Boolean): ByteVector<a id="to-bytes-boolean"></a>
@@ -105,15 +116,15 @@ toBytes(b: Boolean): ByteVector
 
 ### Параметры
 
-#### `b`: Boolean
+#### `b`: [Boolean](/ride/data-types/boolean.md)
 
 Логическое значение для конвертации.
 
 ### Примеры
 
 ``` ride
-let b = true
-let result = toBytes(b)
+toBytes(true) # Возвращает 2
+toBytes(false) # Возвращает 1
 ```
 
 ## toBytes(Int): ByteVector<a id="to-bytes-int"></a>
@@ -126,15 +137,14 @@ toBytes(n: Int): ByteVector
 
 ### Параметры
 
-#### `n`: Int
+#### `n`: [Int](/ride/data-types/int.md)
 
 Целое число для конвертации.
 
 ### Примеры
 
 ``` ride
-let n = 100
-let result = toBytes(n)
+toBytes(10) # Возвращает 1111111B
 ```
 
 ## toBytes(String): ByteVector<a id="to-bytes-string"></a>
@@ -147,15 +157,14 @@ toBytes(s: String): ByteVector
 
 ### Параметры
 
-#### `s`: String
+#### `s`: [String](/ride/data-types/string.md)
 
 Строка для конвертации.
 
 ### Примеры
 
 ``` ride
-let s = "Waves"
-let result = toBytes(s)
+toBytes("Ride") # Возвращает 37BPKA
 ```
 
 ## toInt(ByteVector): Int<a id="to-int-bytevector"></a>
@@ -168,15 +177,14 @@ toInt(bin: ByteVector): Int
 
 ### Параметры
 
-#### `bin`: ByteVector
+#### `bin`: [ByteVector](/ride/data-types/byte-vector.md)
 
 Массив байтов для конвертации.
 
 ### Примеры
 
 ``` ride
-let bin = base58'abcd'
-let result = toInt(bin)
+toInt(bytes) # Возвращает 10
 ```
 
 ## toInt(ByteVector, Int): Int<a id="to-int-bytevector-int"></a>
@@ -189,19 +197,20 @@ toInt(bin: ByteVector, offset: Int): Int
 
 ### Параметры
 
-#### `bin`: ByteVector
+#### `bin`: [ByteVector](/ride/data-types/byte-vector.md)
 
 Массив байтов для конвертации.
 
-#### `offset`: Int
+#### `offset`: [Int](/ride/data-types/int.md)
 
 Индекс.
 
 ### Примеры
 
 ``` ride
-let bin = base58'abcd'
-let result = toInt(bin,2)
+let bytes = toBytes("Ride on Waves")
+toInt(bytes, 2) # Возвращает 7234224039401641825
+toInt(bytes, 6) # Индекс за пределами границ
 ```
 
 ## toString(Address): String<a id="to-string-address"></a>
@@ -214,9 +223,16 @@ toString(Address: Address): String
 
 ### Параметры
 
-#### `Address`: Address
+#### `Address`: [Address](/ride/structures/common-structures/address.md)
 
 Адрес для конвертации.
+
+### Примеры
+
+``` ride
+let address =Address(base58'3NADPfTVhGvVvvRZuqQjhSU4trVqYHwnqjF')
+toString(address) # Возвращает "3NADPfTVhGvVvvRZuqQjhSU4trVqYHwnqjF"
+```
 
 ## toString(Boolean): String<a id="to-string-boolean"></a>
 
@@ -228,15 +244,15 @@ toString(b: Boolean): String
 
 ### Параметры
 
-#### `b`: Boolean
+#### `b`: [Boolean](/ride/data-types/boolean.md)
 
 Логическое значение для конвертации.
 
 ### Примеры
 
 ``` ride
-let b = true
-let result = toString(b)
+toString(true) # Возвращает "true"
+toString(false) # Возвращает "false"
 ```
 
 ## toString(Int): String<a id="to-string-int"></a>
@@ -249,15 +265,14 @@ toString(n: Int): String
 
 ### Параметры
 
-#### `n`: Int
+#### `n`: [Int](/ride/data-types/int.md)
 
 Целое число для конвертации.
 
 ### Примеры
 
 ``` ride
-let n = 100
-let result = toString(n)
+toString(10) # Возвращает "10"
 ```
 
 ## toUtf8String(ByteVector): String<a id="to-utf8-string-bytevector"></a>
@@ -270,13 +285,13 @@ toUtf8String(u: ByteVector): String
 
 ### Параметры
 
-#### `u`: ByteVector
+#### `u`: [ByteVector](/ride/data-types/byte-vector.md)
 
 Массив байтов для конвертации.
 
 ### Примеры
 
 ``` ride
-let u = base58'abcd'
-let result = toUtf8String(u)
+let bytes = toBytes("Ride on Waves")
+toUtf8String(bytes) # Возвращает "Ride on Waves"
 ```
