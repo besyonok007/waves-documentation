@@ -2,6 +2,10 @@
 
 ## October articles
 
+### Programming
+
+* [What is a Smart Asset](smart-contracts/what-is-smart-asset.md)
+
 ### Blockchain
 
 * [Mining](blockchain/mining.md) — <span style="color:green">updated</span>
