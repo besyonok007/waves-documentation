@@ -34,6 +34,10 @@
 
 * [Глоссарий](glossary/glossary.md)
 
+### Программирование
+
+* [Что такое смарт-ассет](smart-contracts/smart-asset-quick-tour.md)
+
 ## Сентябрьские статьи
 
 ### Блокчейн
