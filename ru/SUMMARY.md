@@ -299,7 +299,7 @@
   * [REPL](smart-contracts/tools/repl.md)
   * [Waves IDE](smart-contracts/tools/waves-ide.md)
 * [Что такое смарт-ассет](smart-contracts/what-is-smart-asset.md)
-* [Что такое dApp](smart-contracts/what-is-dapp.md)
+* [Что такое dApp](smart-contracts/what-is-a-dapp.md)
 * [Написание dApps](smart-contracts/writing-dapps.md)
 * [Простое голосование на блокчейне Waves](smart-contracts/simple-voting-on-the-waves-blockchain.md)
 * [Статьи о dApps](smart-contracts/articles-on-dapps.md)

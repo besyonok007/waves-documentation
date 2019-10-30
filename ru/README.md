@@ -5,6 +5,7 @@
 ### Программирование
 
 * [Что такое смарт-ассет](smart-contracts/what-is-smart-asset.md)
+* [Что такое dApp](smart-contracts/what-is-a-dapp.md)
 
 ### Node
 
