@@ -40,8 +40,8 @@ The directive is the mandatory part of a smart asset script.
 
 The validation function verifies that outgoing transactions involving a token meet the specified conditions. If the condition is not met, the transaction will not be sent. Possible results of the validation function are
 
-- true (transaction allowed)
-- false (transaction prohibited)
+- `true` (transaction allowed)
+- `false` (transaction prohibited)
 - error
 
 An asset script may contain several validation functions.
