@@ -355,7 +355,7 @@
   * [State downloading and applying](waves-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md)
   * [Import from the blockchain](waves-node/options-for-getting-actual-blockchain/import-from-the-blockchain.md)
   * [Export to the blockchain](waves-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md)
-* [Upgrading](waves-node/upgrading.md)
+* [Upgrading Waves Node](waves-node/upgrading.md)
 * [How to rollback a node](waves-node/how-to-rollback-a-node.md)
 * [Waves node in Docker](waves-node/waves-node-in-docker.md)
 * [Joining testnet](waves-node/joining-testnet.md)
