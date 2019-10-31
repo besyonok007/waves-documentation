@@ -12,9 +12,9 @@ The following window will appear. Tap on the **Asset** and choose **Waves Enterp
 
 Before proceeding please carefully read the conditions:
 
-**The minimum amount of deposit is 0.1 WE**
+**The minimum amount of deposit is 0.1 WEST**
 ```
-If you will send less than 0.1 WE, you will lose that money.
+If you will send less than 0.1 WEST, you will lose that money.
 ```
 **Send only WE to this deposit address**
 ```
