@@ -320,6 +320,7 @@
 
 ## Programming
 
+* [What is a Smart Asset](smart-contracts/what-is-smart-asset.md)
 * [What is a dApp](smart-contracts/what-is-a-dapp.md)
 * [Writing dApps](smart-contracts/writing-dapps.md)
 * [Simple voting on the Waves blockchain](/smart-contracts/simple-voting-on-the-waves-blockchain.md)

@@ -2,6 +2,11 @@
 
 ## October articles
 
+### Programming
+
+* [What is a Smart Asset](smart-contracts/what-is-smart-asset.md)
+* [What is a dApp](smart-contracts/what-is-a-dapp.md)
+
 ### Blockchain
 
 * [Mining](blockchain/mining.md) — <span style="color:green">updated</span>
