@@ -2,7 +2,7 @@
 
 Any user can not only [create](/waves-client/assets-management/issue-an-asset.md) their own [token](/blockchain/token.md) on the Waves platform but also endow it with certain functionality by attaching a script to it. A token with an attached script is called a [smart asset](/blockchain/token/smart-asset.md), and an attached script is called an [asset script](/ride/script/script-types/asset-script.md). Examples of practical use of smart assets:
 
-- **Freezing**. [Transactions](/blockchain/transaction.md) with a smart asset can be prohibited before (or after) the moment when the [blockchain](/blockchain/blockchain.md) reaches a certain [height(/blockchain/blockchain-height.md).
+- **Freezing**. [Transactions](/blockchain/transaction.md) with a smart asset can be prohibited before (or after) the moment when the [blockchain](/blockchain/blockchain.md) reaches a certain [height](/blockchain/blockchain/blockchain-height.md).
 - **Black / white lists**. Transfer of a smart asset can be prohibited to the specified [addresses](/blockchain/account/address.md) or, conversely, allowed only to the specified addresses.
 - **Commission**. The creator of the smart asset can set a commission that will be paid to him for each operation with his smart asset.
 - **Multi-signature**. A smart asset may require the [signing](/blockchain/transaction/transaction-signature.md) of multiple accounts to complete a transaction.
@@ -82,7 +82,7 @@ match tx {
 
 ### Non-transferrable token
 
-To make token transfers impossible, false should be returned for the transfer transaction, [mass transfer transaction](/blockchain/transaction-types/mass-transfer-transaction.md) and [exchange transaction](/blockchain/transaction/types/exchange-transaction.md).
+To make token transfers impossible, false should be returned for the transfer transaction, [mass transfer transaction](/blockchain/transaction-type/mass-transfer-transaction.md) and [exchange transaction](/blockchain/transaction-type/exchange-transaction.md).
 
 ```ride
 match tx {
@@ -122,13 +122,13 @@ A transaction involving the execution of an asset script has the transaction fee
 
 ## Smart asset fees
 
-The fee for the transaction in which the asset script is executed is increased by 0.004 WAVES. If the account is a smart account, then the size of the fee is increased by an additional 0.004 WAVES.
+The fee for the transaction in which the asset script is executed is increased by 0.004 WAVES. If the account is a [smart account](/blockchain/account/smart-account.md), then the size of the fee is increased by an additional 0.004 WAVES.
 
 Let's review the example. The commission for a transfer transaction is 0.001 WAVES. If a user makes a transfer of a smart asset from a smart account, then the amount of the commission will be 0.001 + 0.004 + 0.004 = 0.009 WAVES.
 
 ## Buying and selling smart assets
 
-Smart assets can be bought and sold on DEX. If the smart asset is one of the bought or sold tokens, then the exchange transaction fee is increased by 0.004 WAVES for each participant of the transaction. If both tokens are smart assets, then the amount of the commission is increased by 0.008 WAVES for each participant in the transaction.
+Smart assets can be bought and sold on [DEX](/waves-dex/about-waves-dex.md). If the smart asset is one of the bought or sold tokens, then the exchange transaction fee is increased by 0.004 WAVES for each participant of the transaction. If both tokens are smart assets, then the amount of the commission is increased by 0.008 WAVES for each participant in the transaction.
 
 Example 1: one of the tokens is a smart asset. The exchange transaction fee is 0.003 WAVES. Each of the participants in the transaction will pay 0.003 + 0.004 = 0.007 WAVES.
 
