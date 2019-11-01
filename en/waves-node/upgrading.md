@@ -2,6 +2,28 @@
 
 Prior to upgrading a Waves Node check the type of installation used. It can be either a **DEB** file (Deb-base GNU/Linux installation) or a **JAR** file (other operating systems). Based on the type of installation used, follow one of the procedures below to upgrade the Waves Node. For more details about types of Waves Node installation, see [How to Install a Node](/waves-node/how-to-install-a-node/how-to-install-a-node.md) and [How to Build and Test a Node](/waves-node/how-to-build-and-test-a-node.md) articles.
 
+## Upgrading Node from APT Reporsitory
+
+Probably the most convenient method to install/upgrade Waves Node on Linux is by means of APT repository. The repository provides mainnet, testnet and stagenet packages.
+When this installation method is used, the related dependencies (namely OpenJDK 8) will also be automatically downloaded.
+
+To install the latest version of a package for mainnet from the APT repository, run the following commands: 
+```
+curl -sL http://apt.wavesplatform.com/apt-key.gpg | sudo apt-key add -
+sudo add-apt-repository "deb https://apt.wavesplatform.com/ xenial mainnet"
+sudo apt update
+sudo apt install waves
+```
+**Note:** The Waves package is supported on Debian 8.0+, Ubuntu 16.04+ and their forks.
+
+Once the new version of Waves Node is released, you can update the package by running the following commands: 
+
+```
+sudo apt update
+sudo apt upgrade
+```
+
+
 ## Upgraging JAR Node 
 
 To upgrade a **JAR** Node complete the following steps:
@@ -62,26 +84,6 @@ See [Export to the Blockchain](/waves-node/options-for-getting-actual-blockchain
 9. Start the Node by executing the following command:
 ```
 # sudo systemctl start waves
-```
-## Upgrading Node from APT Reporsitory
-
-One more and probably the most convenient method to install/upgrade Waves Node on Linux is by means of APT repository. The repository provides mainnet, testnet and stagenet packages.
-When this installation method is used, the related dependencies (namely OpenJDK 8) will also be automatically downloaded.
-
-To install the latest version of a package for mainnet from the APT repository, run the following commands: 
-```
-curl -sL http://apt.wavesplatform.com/apt-key.gpg | sudo apt-key add -
-sudo add-apt-repository "deb https://apt.wavesplatform.com/ xenial mainnet"
-sudo apt update
-sudo apt install waves
-```
-**Note:** The Waves package is supported on Debian 8.0+, Ubuntu 16.04+ and their forks.
-
-Once the new version of Waves Node is released, you can update the package by running the following commands: 
-
-```
-sudo apt update
-sudo apt upgrade
 ```
 
 ## Update Node Configuration File
