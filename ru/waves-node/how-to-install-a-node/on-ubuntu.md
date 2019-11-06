@@ -1,21 +1,34 @@
-# Installing a node on Ubuntu
+# Установка ноды на Ubuntu
 
-## Install OpenJDK 8
+Чтобы запустить ноду Waves, необходимо выполнить два шага:
 
-Install OpenJDK 8 :
+1. Установить OpenJDK 8.
+2. Загрузить файлы Waves и настроить приложение.
 
-```cpp
-sudo apt-get update
-sudo apt-get install openjdk-8-jre
-```
+## Установка OpenJDK 8
 
-Now check the JDK version using the console:
+Проверьте версию JDK с помощью консольной команды:
 
 ```
 java -version
 ```
 
-If you see this result, you can move to the next step:
+**Note:** Не устанавливайте OpenJDK 8 если у вас уже установлена версия OpenJDK 11. Приложение ноды поддерживает версии 8 и 11.
+
+Установите OpenJDK 8, выполнив следующие команды:
+
+```
+sudo apt-get update
+sudo apt-get install openjdk-8-jre
+```
+
+Проверьте версию JDK с помощью команды:
+
+```
+java -version
+```
+
+Если Вы видите следующий результат, то переходите к следующему шагу:
 
 ```
 java version "1.8.0_201"
@@ -23,59 +36,59 @@ Java(TM) SE Runtime Environment (build 1.8.0_201-b09)
 Java HotSpot(TM) 64-Bit Server VM (build 25.201-b09, mixed mode)
 ```
 
-**Note.** Do not install OpenJDK 8 If you already have OpenJDK 11 installed. The node Installation is supported in both versions 8 and 11.
+## Установка deb пакета на deb-based Linux (Ubuntu, Debian)
 
-## Installation from deb package on deb-based linux (Ubuntu, Debian)
+Загрузите последнюю версию deb пакета [Waves](https://github.com/wavesplatform/Waves/releases) и установите его с помощью команды: `sudo dpkg -i waves*.deb`.
 
-Just [download latest waves deb](https://github.com/wavesplatform/Waves/releases) and install it with `sudo dpkg -i waves*.deb`. Now it's time to check your waves config!
+Отредактируйте файл конфигурации Waves, который должен быть уже распакован из пакета deb  в папку: `/usr/share/waves/conf/waves.conf` (или `waves-testnet` для testnet) символическая ссылка `/etc/waves/waves.conf`. Внимательно изучите статью [Конфигурация ноды](/waves-node/node-configuration.md).
 
-It's embedded into the deb package and unpacked to `/usr/share/waves/conf/waves.conf` (or `waves-testnet` folder for testnet) and symlinked to `/etc/waves/waves.conf`. [Please read this and edit waves config](/waves-node/node-configuration.md) with caution.
-
-There are two types of deb packages of waves nodes: with **upstart loader** and **systemd loader**.
+Есть два типа deb пакетов Waves: **upstart loader** и **systemd loader**.
 
 ### 1. Systemd (Ubuntu &gt;= 15.04):
 
-Users can start the node with `sudo systemctl start waves.service` (`waves-testnet` for testnet) and enable autoload on start with `sudo systemctl enable waves.service`. **Systemd** users can find waves app logs in journald storage like that `journalctl -u waves.service -f`. You can read about journald tips [here](https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs).
+Пользователи могут запустить ноду с помощью команды: `sudo systemctl start waves.service` (`waves-testnet` для testnet) и включить автозапуск при включении компьютера с помощью команды: `sudo systemctl enable waves.service`. **Systemd** Пользователи **Systemd** смогут найти логи journald приложения Waves с помощью команды:  `journalctl -u waves.service -f`. Подробно про journald [тут](https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs).
 
 ### 2. **Upstart (Ubuntu &lt; 15.04):**
 
-Users can start the node with `sudo service waves start` (`waves-testnet` for testnet) and enable autoload on start with `sudo service waves enable`. You can find **waves app logs** in `/var/log/waves` folder like that tail `-f /var/log/waves/waves.log`
+Пользователи могут запустить ноду с помощью команды: `sudo service waves start` (`waves-testnet` для testnet) и включить автозапуск при включении компьютера с помощью команды: `sudo service waves enable`. Логи приложения Waves `/var/log/waves/waves.log`
 
 
 
-**If you want to change waves directory (for wallet, blockchain and other node files\ in ubuntu packages you should change it using **`-J-Dwaves.directory=path`** in **`/etc/waves/application.ini`**. Default waves directory is **`/var/lib/waves-testnet/`** is set in run systemd start script.**
+**Чтобы поменять папку waves (для кошелька, блокчейна и других файлов ноды в пакетах ubuntu можно поменять, используя  **`-J-Dwaves.directory=path`** in **`/etc/waves/application.ini`**. Папка waves по умолчанию**`/var/lib/waves-testnet/`** задается в скрипте run systemd start.**
 
-# Installation for advanced users
+# Установка для продвинутых пользователей
 
-[Download latest version](https://github.com/wavesplatform/Waves/releases) of waves.jar and required configuration file (for mainnet or testnet) to any folder, for example `/opt/waves`.
+Загрузите последнюю версию waves.jar пакета [Waves](https://github.com/wavesplatform/Waves/releases) и файл конфигурации .conf (для mainnet или testnet) в любую папку, например `/opt/waves`.
 
-Check out the configuration file, **it is very important**! On this depends **the safety of your wallet and money**.
+Отредактируйте файл конфигурации waves.conf, **это очень важно! От этого зависит безопасность вашего кошелька и средств!**
 
-Just open it via your favorite text editor, pour a cup of tea and read [the documentation of the configuration file.](/waves-node/node-configuration.md)
+Откройте файл конфигурации своим любимым текстовым редактором, налейте в чашку вкусный чай и изучите статью [Конфигурация ноды](/waves-node/node-configuration.md)
 
-Then start console, navigate to the folder with the jar file with the command `cd /opt/waves` and start waves node with command `java -jar waves.jar waves-config.conf`.
+Откройте консоль и перейдите в папку с файлом jar с помощью следующей команды: `cd /opt/waves` запустите ноду waves следующей командой: `java -jar waves.jar waves-config.conf`.
 
 Now you can write a script to run every node, which you like and use it! I hope it's worth it! :\)
 
-# Installation from source
+## Установка из исходников
 
-* add to your ~/.bashrc for increase memory for jvm:
+* Добавьте в свой ~/.bashrc для увелиения памяти jvm:
+
   ```
   SBT_OPTS="-XX:MaxJavaStackTraceDepth=5000 -Xmx2536M -XX:+CMSClassUnloadingEnabled -Xss2M"
   ```
-* Run at console:
+
+* Выполните в консоли:
 
   ```
   sudo apt install sbt
   ```
 
-* Clone the repository:
+* Клонируйте репозиторий:
 
   ```
   git clone git@github.com:wavesplatform/Waves.git
   ```
 
-* Run SBT at project folder:
+* Запустите SBT в папке проекта:
 
   ```
   cd waves_project
@@ -83,30 +96,28 @@ Now you can write a script to run every node, which you like and use it! I hope 
   packageAll
   ```
 
-* Import project to Intellij Idea
+* Импортируйте проект в Intellij Idea
 
-* Download featured plugins for Intellij:
+* Загрузите плагин для Intellij:
 
   * Scala
 
-* On import project check this point
+* Во время импорта проекта, выберите опцию:
 
   ```
   [x] Use sbt shell for build and import
   ```
 
-* Increase heap size to 2048 MB,
+* Увеличьте heap size до 2048 MB
 
-* Setup plugin "Scala Fmt"
+* Настройте плагин "Scala Fmt"
 
-* Enjoy
+# Дополнительная безопасность
 
-# Additional security
+Для дополнительной безопасности, рекомендуется хранить приложение кошелёк и файл конфигурации в зашифрованной разделе диска. Подробно об этом [тут](https://help.ubuntu.com/community/EncryptedFilesystems).
 
-For added security, it is recommended to store your wallet and configuration applications on an encrypted partition. You can read about it [here](https://help.ubuntu.com/community/EncryptedFilesystems).
+Также, возможно Вы захотите ограничить использование зашифрованных папок для некоторых пользователей. Подробно об этом [тут](http://manpages.ubuntu.com/manpages/precise/man1/chown.1.html). Скрипт deb пакета Waves создает пользователя. Приложение, кошелёк и папки с данными по умолчанию принадлежат ему данному пользователю.
 
-Also, you may want to limit the use of these folders only specified users. You can read about it [here](http://manpages.ubuntu.com/manpages/precise/man1/chown.1.html). Our scripts in deb packages create user waves and the waves app, wallet and data folders by default belong to him.
+Если Вы захотите использовать RPC, тогда необходимо защитить Ubuntu с помощью встроенного ufw или любого другого файервола. Подробно об этом [тут](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server). Если у Ваш сервер находится в публичном доступе и Вы захотите использовать RPC, тогда задействуйте только определённые методы, используя [Nginx's proxy\_pass module](http://nginx.org/ru/docs/http/ngx_http_proxy_module.html) и не забудьте назначить API key apiKeyHash хэш в файле конфигурации Waves.
 
-If you decide to use RPC, you should protect it with embedded in ubuntu `ufw` or any other firewall. You can read about it [here](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server). If your server is public and available to the Internet and you decide to enable and use RPC, then allow only certain methods using [Nginx's proxy\_pass module](http://nginx.org/ru/docs/http/ngx_http_proxy_module.html) and do not forget to set the `apiKeyHash` in waves.conf.
-
-Also, do not forget to install the OS and other software security updates.
+Также, не забывайте своевременно обновлять операционную систему и программное обеспечение системы безопасности.
