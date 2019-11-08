@@ -313,6 +313,12 @@
   * [Установка ноды на MacOS](waves-node/how-to-install-a-node/on-mac.md)
   * [Установка ноды на Windows](waves-node/how-to-install-a-node/on-windows.md)
   * [Установка ноды на Ubuntu](waves-node/how-to-install-a-node/on-ubuntu.md)
+* [Как запустить и протестировать ноду](waves-node/how-to-build-and-test-a-node.md)
+* [Способы загрузки актуального блокчейна](waves-node/options-for-getting-actual-blockchain.md)
+  * [Загрузка и актуализация состояния](waves-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md)
+  * [Импорт из блокчейна](waves-node/options-for-getting-actual-blockchain/import-from-the-blockchain.md)
+  * [Экспорт блокчейна](waves-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md)
+* [Обновление Ноды Waves](waves-node/upgrading.md)  
 * [Запуск Waves Node в Яндекс.Облаке](waves-node/running-waves-node-in-yandex-cloud.md)
 * [Ограничения API пула публичных нод](waves-node/api-limitations-of-the-pool-of-public-nodes.md)
 * [Конфигурация ноды](waves-node/node-configuration.md)
@@ -321,7 +327,6 @@
     * [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
   * [Матчер](waves-node/extensions/matcher.md)
     * [Установка матчера на Ubuntu из deb-пакета](/waves-node/extensions/matcher/matcher-install-ubuntu-deb.md)
-* [Обновление Ноды Waves](waves-node/upgrading.md)  
 
 ## API and SDK
 
